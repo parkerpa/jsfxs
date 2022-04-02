@@ -5,423 +5,423 @@ mode: Rule
 log-level: info
 external-controller: :9090
 proxies:
-  - {name: (Youtube技术分享室)🇨🇳中国, server: 183.232.163.134, port: 3389, type: trojan, password: 86ba9055070f93ba, skip-cert-verify: true, udp: true}
-  - {name: (Youtube技术分享室)🇬🇧英国, server: 172.99.190.153, port: 6379, type: ss, cipher: aes-256-gcm, password: zDNVedRFPQexG9v, udp: true}
-  - {name: (Youtube技术分享室)🇬🇧英国 2, server: 172.99.190.188, port: 8008, type: ss, cipher: aes-256-gcm, password: XKFKl2rULjIp74, udp: true}
-  - {name: FR法国(Youtube技术分享室), server: 54.38.72.170, port: 7307, type: ss, cipher: aes-256-gcm, password: FoOiGlkAA9yPEGP, udp: true}
-  - {name: GB英国(Youtube技术分享室), server: 172.99.190.87, port: 2376, type: ss, cipher: aes-256-gcm, password: faBAoD54k87UJG7, udp: true}
-  - {name: (Youtube技术分享室)🇬🇧英国 3, server: 172.99.190.39, port: 7307, type: ss, cipher: aes-256-gcm, password: FoOiGlkAA9yPEGP, udp: true}
-  - {name: GB英国(Youtube技术分享室) 2, server: 172.99.190.39, port: 9101, type: ss, cipher: aes-256-gcm, password: e4FCWrgpkji3QY, udp: true}
-  - {name: FR(Youtube技术分享室整理), server: 54.38.72.170, port: 8090, type: ss, cipher: aes-256-gcm, password: PCnnH6SQSnfoS27, udp: true}
-  - {name: BA波黑(Youtube技术分享室), server: 185.99.3.108, port: 45329, type: ss, cipher: aes-256-gcm, password: CXSjgD7u7Ar7GxkZ4CgTMUsj, udp: true}
-  - {name: FR法国(Youtube技术分享室) 2, server: 145.239.1.100, port: 8881, type: ss, cipher: aes-256-gcm, password: kDWvXYZoTBcGkC4, udp: true}
-  - {name: (Youtube技术分享室), server: 104.18.96.85, port: 2053, type: vmess, uuid: bf67437e-6c90-45ca-abc2-c7240a5ce2aa, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-path: /eisasqa, ws-headers: {Host: foxus.fovi.tk}, udp: true}
-  - {name: 中国(Youtube技术分享室), server: sxqxj.cn, port: 2164, type: vmess, uuid: aba50dd4-5484-3b05-b14a-4661caf862d5, alterId: 4, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-path: /ws, ws-headers: {Host: sxqxj.cn}, udp: true}
-  - {name: US(Youtube技术分享室整理), server: 172.99.190.87, port: 8080, type: ss, cipher: aes-256-gcm, password: KixLvKzwjekG00rm, udp: true}
-  - {name: PL波兰(Youtube技术分享室), server: 194.15.196.78, port: 5001, type: ss, cipher: aes-256-gcm, password: Y6R9pAtvxxzmGC, udp: true}
-  - {name: SG新加坡(Youtube技术分享室), server: 45.118.133.51, port: 6697, type: ss, cipher: aes-256-gcm, password: TEzjfAYq2IjtuoS, udp: true}
-  - {name: (Youtube技术分享室)🇨🇳中国 2, server: 120.232.192.115, port: 3389, type: trojan, password: 86ba9055070f93ba, skip-cert-verify: true, udp: true}
-  - {name: (Youtube技术分享室)🇩🇪德国, server: 193.108.117.75, port: 6379, type: ss, cipher: aes-256-gcm, password: zDNVedRFPQexG9v, udp: true}
-  - {name: DE德国(Youtube技术分享室), server: 193.108.117.24, port: 8080, type: ss, cipher: aes-256-gcm, password: KixLvKzwjekG00rm, udp: true}
-  - {name: (Youtube技术分享室) 2, server: 104.16.162.16, port: 2053, type: vmess, uuid: bf67437e-6c90-45ca-abc2-c7240a5ce2aa, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-path: /eisasqa, ws-headers: {Host: foxus.fovi.tk}, udp: true}
-  - {name: US美国(Youtube技术分享室), server: 169.197.142.216, port: 7306, type: ss, cipher: aes-256-gcm, password: FoOiGlkAA9yPEGP, udp: true}
-  - {name: (Youtube技术分享室)🇬🇧英国 4, server: 172.99.190.188, port: 3306, type: ss, cipher: aes-256-gcm, password: Y6R9pAtvxxzmGC, udp: true}
-  - {name: US美国(Youtube技术分享室) 2, server: 169.197.142.216, port: 7001, type: ss, cipher: aes-256-gcm, password: RexnBgU7EV5ADxG, udp: true}
-  - {name: GB英国(Youtube技术分享室) 3, server: 172.99.190.205, port: 5600, type: ss, cipher: aes-256-gcm, password: Y6R9pAtvxxzmGC, udp: true}
-  - {name: PL(Youtube技术分享室整理), server: 51.77.52.206, port: 2376, type: ss, cipher: aes-256-gcm, password: faBAoD54k87UJG7, udp: true}
-  - {name: SG(Youtube技术分享室整理), server: 172.104.44.88, port: 2375, type: ss, cipher: aes-256-gcm, password: faBAoD54k87UJG7, udp: true}
-  - {name: US美国(Youtube技术分享室) 3, server: 38.75.136.102, port: 6379, type: ss, cipher: aes-256-gcm, password: zDNVedRFPQexG9v, udp: true}
-  - {name: US美国(Youtube技术分享室) 4, server: 167.88.63.61, port: 7306, type: ss, cipher: aes-256-gcm, password: FoOiGlkAA9yPEGP, udp: true}
-  - {name: CA加拿大(Youtube技术分享室), server: 134.195.196.149, port: 8009, type: ss, cipher: aes-256-gcm, password: XKFKl2rULjIp74, udp: true}
-  - {name: (Youtube技术分享室)🇨🇦加拿大, server: 134.195.196.147, port: 8008, type: ss, cipher: aes-256-gcm, password: XKFKl2rULjIp74, udp: true}
-  - {name: US美国(Youtube技术分享室) 5, server: 38.114.114.49, port: 6679, type: ss, cipher: aes-256-gcm, password: TEzjfAYq2IjtuoS, udp: true}
-  - {name: US美国(Youtube技术分享室) 6, server: 38.68.134.48, port: 8888, type: ss, cipher: aes-256-gcm, password: Y6R9pAtvxxzmGC, udp: true}
-  - {name: US美国(Youtube技术分享室) 7, server: 38.75.137.66, port: 8080, type: ss, cipher: aes-256-gcm, password: KixLvKzwjekG00rm, udp: true}
-  - {name: SG新加坡(Youtube技术分享室) 2, server: 172.104.50.106, port: 9102, type: ss, cipher: aes-256-gcm, password: e4FCWrgpkji3QY, udp: true}
-  - {name: AE阿联酋(Youtube技术分享室), server: 217.138.193.6, port: 801, type: ss, cipher: chacha20-ietf-poly1305, password: G!yBwPWH3Vao, udp: true}
-  - {name: US(Youtube技术分享室整理) 2, server: 167.88.63.61, port: 7001, type: ss, cipher: aes-256-gcm, password: RexnBgU7EV5ADxG, udp: true}
-  - {name: AU澳大利亚(Youtube技术分享室), server: 192.53.169.116, port: 8888, type: ss, cipher: aes-256-gcm, password: Y6R9pAtvxxzmGC, udp: true}
-  - {name: US美国(Youtube技术分享室) 8, server: 38.68.134.37, port: 5601, type: ss, cipher: aes-256-gcm, password: Y6R9pAtvxxzmGC, udp: true}
-  - {name: US美国(Youtube技术分享室) 9, server: 167.88.61.50, port: 8119, type: ss, cipher: aes-256-gcm, password: cdBIDV42DCwnfIN, udp: true}
-  - {name: (Youtube技术分享室)🇨🇦加拿大 2, server: 134.195.196.50, port: 5000, type: ss, cipher: aes-256-gcm, password: Y6R9pAtvxxzmGC, udp: true}
-  - {name: 加拿大🇨🇦(Youtube技术分享室整理), server: 134.195.196.51, port: 8119, type: ss, cipher: aes-256-gcm, password: cdBIDV42DCwnfIN, udp: true}
-  - {name: US美国(Youtube技术分享室) 10, server: 167.88.62.24, port: 8882, type: ss, cipher: aes-256-gcm, password: kDWvXYZoTBcGkC4, udp: true}
-  - {name: US美国(Youtube技术分享室) 11, server: 38.86.135.27, port: 8000, type: ss, cipher: aes-256-gcm, password: KixLvKzwjekG00rm, udp: true}
-  - {name: US(Youtube技术分享室整理) 3, server: 167.88.61.60, port: 7001, type: ss, cipher: aes-256-gcm, password: RexnBgU7EV5ADxG, udp: true}
-  - {name: US(Youtube技术分享室整理) 4, server: 38.64.138.145, port: 7306, type: ss, cipher: aes-256-gcm, password: FoOiGlkAA9yPEGP, udp: true}
-  - {name: US美国(Youtube技术分享室) 12, server: 167.88.61.14, port: 7306, type: ss, cipher: aes-256-gcm, password: FoOiGlkAA9yPEGP, udp: true}
-  - {name: NZ新西兰(Youtube技术分享室), server: 103.62.49.141, port: 804, type: ss, cipher: chacha20-ietf-poly1305, password: G!yBwPWH3Vao, udp: true}
-  - {name: US美国(Youtube技术分享室) 13, server: 167.88.61.14, port: 6679, type: ss, cipher: aes-256-gcm, password: TEzjfAYq2IjtuoS, udp: true}
-  - {name: US美国(Youtube技术分享室) 14, server: 38.68.135.112, port: 9101, type: ss, cipher: aes-256-gcm, password: e4FCWrgpkji3QY, udp: true}
-  - {name: US(Youtube技术分享室整理) 5, server: 38.107.226.146, port: 3306, type: ss, cipher: aes-256-gcm, password: Y6R9pAtvxxzmGC, udp: true}
-  - {name: US美国(Youtube技术分享室) 15, server: 167.88.61.50, port: 5004, type: ss, cipher: aes-256-gcm, password: g5MeD6Ft3CWlJId, udp: true}
-  - {name: CN中国(Youtube技术分享室), server: 183.232.56.161, port: 8004, type: vmess, uuid: 3a226645-c640-39a2-8177-000381e29f20, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-path: /v2ray, ws-headers: {Host: microsoft.com}, udp: true}
-  - {name: US美国(Youtube技术分享室) 16, server: 38.114.114.19, port: 6379, type: ss, cipher: aes-256-gcm, password: zDNVedRFPQexG9v, udp: true}
-  - {name: AU澳大利亚(Youtube技术分享室) 2, server: 172.105.180.227, port: 3389, type: ss, cipher: aes-256-gcm, password: Y6R9pAtvxxzmGC, udp: true}
-  - {name: US(Youtube技术分享室整理) 6, server: 169.197.142.39, port: 2375, type: ss, cipher: aes-256-gcm, password: faBAoD54k87UJG7, udp: true}
-  - {name: US美国(Youtube技术分享室) 17, server: 167.88.61.14, port: 8090, type: ss, cipher: aes-256-gcm, password: PCnnH6SQSnfoS27, udp: true}
-  - {name: US(Youtube技术分享室整理) 7, server: 169.197.142.39, port: 8080, type: ss, cipher: aes-256-gcm, password: KixLvKzwjekG00rm, udp: true}
-  - {name: (Youtube技术分享室)🇺🇸美国, server: 38.75.136.49, port: 7306, type: ss, cipher: aes-256-gcm, password: FoOiGlkAA9yPEGP, udp: true}
-  - {name: (Youtube技术分享室)🇺🇸美国 2, server: 167.88.61.5, port: 5003, type: ss, cipher: aes-256-gcm, password: g5MeD6Ft3CWlJId, udp: true}
-  - {name: (Youtube技术分享室)🇺🇸美国 3, server: 169.197.142.238, port: 5001, type: ss, cipher: aes-256-gcm, password: Y6R9pAtvxxzmGC, udp: true}
-  - {name: CA加拿大(Youtube技术分享室) 2, server: 134.195.196.154, port: 8090, type: ss, cipher: aes-256-gcm, password: PCnnH6SQSnfoS27, udp: true}
-  - {name: (Youtube技术分享室)🇨🇦加拿大 3, server: 198.57.27.191, port: 8881, type: ss, cipher: aes-256-gcm, password: kDWvXYZoTBcGkC4, udp: true}
-  - {name: US(Youtube技术分享室整理) 8, server: 169.197.142.39, port: 8090, type: ss, cipher: aes-256-gcm, password: PCnnH6SQSnfoS27, udp: true}
-  - {name: _美国(Youtube技术分享室整理), server: 38.75.137.187, port: 2375, type: ss, cipher: aes-256-gcm, password: faBAoD54k87UJG7, udp: true}
-  - {name: US美国(Youtube技术分享室) 18, server: 167.88.63.107, port: 8091, type: ss, cipher: aes-256-gcm, password: PCnnH6SQSnfoS27, udp: true}
-  - {name: (Youtube技术分享室)🇦🇺澳大利亚, server: 172.105.176.149, port: 5601, type: ss, cipher: aes-256-gcm, password: Y6R9pAtvxxzmGC, udp: true}
-  - {name: US美国(Youtube技术分享室) 19, server: 38.86.135.169, port: 9101, type: ss, cipher: aes-256-gcm, password: e4FCWrgpkji3QY, udp: true}
-  - {name: US美国(Youtube技术分享室) 20, server: 38.68.134.191, port: 8008, type: ss, cipher: aes-256-gcm, password: XKFKl2rULjIp74, udp: true}
-  - {name: US美国(Youtube技术分享室) 21, server: 38.68.134.85, port: 8080, type: ss, cipher: aes-256-gcm, password: KixLvKzwjekG00rm, udp: true}
-  - {name: CA加拿大(Youtube技术分享室) 3, server: 134.195.196.227, port: 8090, type: ss, cipher: aes-256-gcm, password: PCnnH6SQSnfoS27, udp: true}
-  - {name: US美国(Youtube技术分享室) 22, server: 167.88.61.175, port: 8008, type: ss, cipher: aes-256-gcm, password: XKFKl2rULjIp74, udp: true}
-  - {name: (Youtube技术分享室)🇺🇸美国 4, server: 169.197.142.238, port: 5500, type: ss, cipher: aes-256-gcm, password: KixLvKzwjekG00rm, udp: true}
-  - {name: US(Youtube技术分享室整理) 9, server: 169.197.142.39, port: 7306, type: ss, cipher: aes-256-gcm, password: FoOiGlkAA9yPEGP, udp: true}
-  - {name: US美国(Youtube技术分享室) 23, server: 167.88.62.24, port: 6697, type: ss, cipher: aes-256-gcm, password: TEzjfAYq2IjtuoS, udp: true}
-  - {name: US美国(Youtube技术分享室) 24, server: 167.88.63.61, port: 5003, type: ss, cipher: aes-256-gcm, password: g5MeD6Ft3CWlJId, udp: true}
-  - {name: SG新加坡(Youtube技术分享室) 3, server: 51.79.166.171, port: 50004, type: ss, cipher: aes-256-cfb, password: !<str> 4415934295, udp: true}
-  - {name: US美国(Youtube技术分享室) 25, server: 169.197.142.216, port: 8000, type: ss, cipher: aes-256-gcm, password: KixLvKzwjekG00rm, udp: true}
-  - {name: US美国(Youtube技术分享室) 26, server: 167.88.61.175, port: 443, type: ss, cipher: aes-256-gcm, password: pKEW8JPByTVTLtM, udp: true}
-  - {name: US美国(Youtube技术分享室) 27, server: 38.64.138.145, port: 6697, type: ss, cipher: aes-256-gcm, password: TEzjfAYq2IjtuoS, udp: true}
-  - {name: US美国(Youtube技术分享室) 28, server: 38.64.138.145, port: 8009, type: ss, cipher: aes-256-gcm, password: XKFKl2rULjIp74, udp: true}
-  - {name: CN中国(Youtube技术分享室) 2, server: 183.232.56.161, port: 1611, type: vmess, uuid: 3a226645-c640-39a2-8177-000381e29f20, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-path: /v2ray, ws-headers: {Host: microsoft.com}, udp: true}
-  - {name: (Youtube技术分享室)🇺🇸美国 5, server: 167.88.61.5, port: 3306, type: ss, cipher: aes-256-gcm, password: Y6R9pAtvxxzmGC, udp: true}
-  - {name: CA加拿大(Youtube技术分享室) 4, server: 134.195.196.41, port: 5600, type: ss, cipher: aes-256-gcm, password: Y6R9pAtvxxzmGC, udp: true}
-  - {name: SG新加坡(Youtube技术分享室) 4, server: 139.162.58.13, port: 8882, type: ss, cipher: aes-256-gcm, password: kDWvXYZoTBcGkC4, udp: true}
-  - {name: US美国(Youtube技术分享室) 29, server: 38.114.114.185, port: 7002, type: ss, cipher: aes-256-gcm, password: RexnBgU7EV5ADxG, udp: true}
-  - {name: _加拿大(Youtube技术分享室整理), server: 198.57.27.113, port: 5003, type: ss, cipher: aes-256-gcm, password: g5MeD6Ft3CWlJId, udp: true}
-  - {name: US美国(Youtube技术分享室) 30, server: 38.68.135.239, port: 3306, type: ss, cipher: aes-256-gcm, password: Y6R9pAtvxxzmGC, udp: true}
-  - {name: US美国(Youtube技术分享室) 31, server: 167.88.63.60, port: 7001, type: ss, cipher: aes-256-gcm, password: RexnBgU7EV5ADxG, udp: true}
-  - {name: CA加拿大(Youtube技术分享室) 5, server: 198.57.27.188, port: 6679, type: ss, cipher: aes-256-gcm, password: TEzjfAYq2IjtuoS, udp: true}
-  - {name: 美国(Youtube技术分享室整理), server: 167.88.63.71, port: 8091, type: ss, cipher: aes-256-gcm, password: PCnnH6SQSnfoS27, udp: true}
-  - {name: US美国(Youtube技术分享室) 32, server: 169.197.142.216, port: 7002, type: ss, cipher: aes-256-gcm, password: RexnBgU7EV5ADxG, udp: true}
-  - {name: US美国(Youtube技术分享室) 33, server: 38.121.43.91, port: 8008, type: ss, cipher: aes-256-gcm, password: XKFKl2rULjIp74, udp: true}
-  - {name: US美国(Youtube技术分享室) 34, server: 38.68.134.71, port: 8009, type: ss, cipher: aes-256-gcm, password: XKFKl2rULjIp74, udp: true}
-  - {name: (Youtube技术分享室)🇺🇸美国 6, server: 38.86.135.126, port: 5000, type: ss, cipher: aes-256-gcm, password: Y6R9pAtvxxzmGC, udp: true}
-  - {name: (Youtube技术分享室)🇨🇦加拿大 4, server: 198.57.27.241, port: 7002, type: ss, cipher: aes-256-gcm, password: RexnBgU7EV5ADxG, udp: true}
-  - {name: US美国(Youtube技术分享室) 35, server: 38.68.134.48, port: 9101, type: ss, cipher: aes-256-gcm, password: e4FCWrgpkji3QY, udp: true}
-  - {name: US美国(Youtube技术分享室) 36, server: 38.121.43.71, port: 6697, type: ss, cipher: aes-256-gcm, password: TEzjfAYq2IjtuoS, udp: true}
-  - {name: CH瑞士(Youtube技术分享室), server: 37.120.213.230, port: 50004, type: ss, cipher: aes-256-cfb, password: !<str> 4415934295, udp: true}
-  - {name: (Youtube技术分享室)🇩🇪德国 2, server: 152.70.188.10, port: 443, type: vmess, uuid: 6ae16454-de6a-4113-c64e-0549be488f15, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, udp: true}
-  - {name: US美国(Youtube技术分享室) 37, server: 169.197.142.99, port: 5001, type: ss, cipher: aes-256-gcm, password: Y6R9pAtvxxzmGC, udp: true}
-  - {name: US美国(Youtube技术分享室) 38, server: 169.197.142.99, port: 8091, type: ss, cipher: aes-256-gcm, password: PCnnH6SQSnfoS27, udp: true}
+  - {name: 日本+🇯🇵(Youtube技术分享室整理), server: 5.180.76.74, port: 9102, type: ss, cipher: aes-256-gcm, password: e4FCWrgpkji3QY, udp: true}
+  - {name: SG新加坡(Youtube技术分享室), server: 45.118.133.51, port: 2375, type: ss, cipher: aes-256-gcm, password: faBAoD54k87UJG7, udp: true}
+  - {name: SG新加坡(Youtube技术分享室) 2, server: 139.162.24.50, port: 9101, type: ss, cipher: aes-256-gcm, password: e4FCWrgpkji3QY, udp: true}
+  - {name: SG新加坡(Youtube技术分享室) 3, server: 139.162.24.50, port: 7307, type: ss, cipher: aes-256-gcm, password: FoOiGlkAA9yPEGP, udp: true}
+  - {name: RO(Youtube技术分享室整理), server: 62.216.92.167, port: 812, type: ss, cipher: chacha20-ietf-poly1305, password: G!yBwPWH3Vao, udp: true}
+  - {name: SG新加坡(Youtube技术分享室) 4, server: 139.162.24.50, port: 5001, type: ss, cipher: aes-256-gcm, password: Y6R9pAtvxxzmGC, udp: true}
+  - {name: SG新加坡(Youtube技术分享室) 5, server: 139.162.24.50, port: 9102, type: ss, cipher: aes-256-gcm, password: e4FCWrgpkji3QY, udp: true}
+  - {name: SG新加坡(Youtube技术分享室) 6, server: 51.79.157.58, port: 50004, type: ss, cipher: aes-256-cfb, password: !<str> 4415934295, udp: true}
+  - {name: SG新加坡(Youtube技术分享室) 7, server: 139.99.68.127, port: 5003, type: ss, cipher: aes-256-gcm, password: g5MeD6Ft3CWlJId, udp: true}
+  - {name: GB英国(Youtube技术分享室), server: 212.38.189.174, port: 7307, type: ss, cipher: aes-256-gcm, password: FoOiGlkAA9yPEGP, udp: true}
+  - {name: US美国(Youtube技术分享室整理), server: 172.99.190.205, port: 8091, type: ss, cipher: aes-256-gcm, password: PCnnH6SQSnfoS27, udp: true}
+  - {name: GB英国(Youtube技术分享室) 2, server: 172.99.190.57, port: 7307, type: ss, cipher: aes-256-gcm, password: FoOiGlkAA9yPEGP, udp: true}
+  - {name: GB英国(Youtube技术分享室) 3, server: 172.99.190.158, port: 7306, type: ss, cipher: aes-256-gcm, password: FoOiGlkAA9yPEGP, udp: true}
+  - {name: US美国(Youtube技术分享室), server: 172.99.188.99, port: 8119, type: ss, cipher: aes-256-gcm, password: cdBIDV42DCwnfIN, udp: true}
+  - {name: (Youtube技术分享室)🇨🇳中国, server: 183.232.56.161, port: 1704, type: vmess, uuid: 3a226645-c640-39a2-8177-000381e29f20, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-path: /v2ray, ws-headers: {Host: 183.232.56.161}, udp: true}
+  - {name: GB英国(Youtube技术分享室) 4, server: 172.99.190.205, port: 7002, type: ss, cipher: aes-256-gcm, password: RexnBgU7EV5ADxG, udp: true}
+  - {name: (Youtube技术分享室)🇬🇧英国, server: 172.99.190.188, port: 6679, type: ss, cipher: aes-256-gcm, password: TEzjfAYq2IjtuoS, udp: true}
+  - {name: (Youtube技术分享室)🇬🇧英国 2, server: 172.99.190.188, port: 9102, type: ss, cipher: aes-256-gcm, password: e4FCWrgpkji3QY, udp: true}
+  - {name: GB英国(Youtube技术分享室) 5, server: 172.99.190.90, port: 7306, type: ss, cipher: aes-256-gcm, password: FoOiGlkAA9yPEGP, udp: true}
+  - {name: (Youtube技术分享室)🇬🇧英国 3, server: 172.99.190.188, port: 5003, type: ss, cipher: aes-256-gcm, password: g5MeD6Ft3CWlJId, udp: true}
+  - {name: FR法国(Youtube技术分享室), server: 149.202.82.172, port: 8008, type: ss, cipher: aes-256-gcm, password: XKFKl2rULjIp74, udp: true}
+  - {name: US(Youtube技术分享室整理), server: 172.99.190.109, port: 8090, type: ss, cipher: aes-256-gcm, password: PCnnH6SQSnfoS27, udp: true}
+  - {name: _英国(Youtube技术分享室整理), server: 172.99.190.139, port: 5004, type: ss, cipher: aes-256-gcm, password: g5MeD6Ft3CWlJId, udp: true}
+  - {name: GB英国(Youtube技术分享室) 6, server: 172.99.190.87, port: 7002, type: ss, cipher: aes-256-gcm, password: RexnBgU7EV5ADxG, udp: true}
+  - {name: US(Youtube技术分享室整理) 2, server: 172.99.190.186, port: 7307, type: ss, cipher: aes-256-gcm, password: FoOiGlkAA9yPEGP, udp: true}
+  - {name: (Youtube技术分享室)🇳🇱荷兰, server: 213.183.51.171, port: 9061, type: ss, cipher: aes-256-cfb, password: 4R3hUfZ2FHhDmNcP, udp: true}
+  - {name: (Youtube技术分享室)🇺🇸美国, server: 34.216.75.173, port: 443, type: ss, cipher: aes-256-cfb, password: amazonskr05, udp: true}
+  - {name: GB英国(Youtube技术分享室) 7, server: 212.38.189.174, port: 8091, type: ss, cipher: aes-256-gcm, password: PCnnH6SQSnfoS27, udp: true}
+  - {name: GB英国(Youtube技术分享室) 8, server: 172.99.190.205, port: 6697, type: ss, cipher: aes-256-gcm, password: TEzjfAYq2IjtuoS, udp: true}
+  - {name: BA波黑(Youtube技术分享室), server: 185.99.3.108, port: 44820, type: ss, cipher: aes-256-gcm, password: jspgz9G3VmvBMCgMUWLBaZHu, udp: true}
+  - {name: US美国(Youtube技术分享室) 2, server: 38.75.136.102, port: 8090, type: ss, cipher: aes-256-gcm, password: PCnnH6SQSnfoS27, udp: true}
+  - {name: (Youtube技术分享室)🇬🇧英国 4, server: 172.99.190.206, port: 2375, type: ss, cipher: aes-256-gcm, password: faBAoD54k87UJG7, udp: true}
+  - {name: GB英国(Youtube技术分享室) 9, server: 172.99.190.39, port: 8090, type: ss, cipher: aes-256-gcm, password: PCnnH6SQSnfoS27, udp: true}
+  - {name: _英国(Youtube技术分享室整理) 2, server: 172.99.190.139, port: 8090, type: ss, cipher: aes-256-gcm, password: PCnnH6SQSnfoS27, udp: true}
+  - {name: GB英国(Youtube技术分享室) 10, server: 172.99.190.90, port: 7307, type: ss, cipher: aes-256-gcm, password: FoOiGlkAA9yPEGP, udp: true}
+  - {name: 澳大利亚🇦🇺(Youtube技术分享室整理), server: 172.105.184.12, port: 5003, type: ss, cipher: aes-256-gcm, password: g5MeD6Ft3CWlJId, udp: true}
+  - {name: 澳大利亚🇦🇺(Youtube技术分享室整理) 2, server: 192.53.169.116, port: 2376, type: ss, cipher: aes-256-gcm, password: faBAoD54k87UJG7, udp: true}
+  - {name: AU澳大利亚(Youtube技术分享室), server: 172.105.180.227, port: 2376, type: ss, cipher: aes-256-gcm, password: faBAoD54k87UJG7, udp: true}
+  - {name: (Youtube技术分享室)🇩🇪德国, server: 139.162.130.101, port: 8000, type: ss, cipher: aes-256-gcm, password: KixLvKzwjekG00rm, udp: true}
+  - {name: GB英国(Youtube技术分享室) 11, server: 172.99.190.7, port: 2376, type: ss, cipher: aes-256-gcm, password: faBAoD54k87UJG7, udp: true}
+  - {name: (Youtube技术分享室)🇦🇺澳大利亚, server: 172.105.170.229, port: 5601, type: ss, cipher: aes-256-gcm, password: Y6R9pAtvxxzmGC, udp: true}
+  - {name: US(Youtube技术分享室整理) 3, server: 172.99.190.87, port: 8080, type: ss, cipher: aes-256-gcm, password: KixLvKzwjekG00rm, udp: true}
+  - {name: US(Youtube技术分享室整理) 4, server: 172.99.190.130, port: 2375, type: ss, cipher: aes-256-gcm, password: faBAoD54k87UJG7, udp: true}
+  - {name: _韩国(Youtube技术分享室整理), server: 141.164.59.168, port: 6679, type: ss, cipher: aes-256-gcm, password: TEzjfAYq2IjtuoS, udp: true}
+  - {name: US美国(Youtube技术分享室) 3, server: 167.88.61.213, port: 8080, type: ss, cipher: aes-256-gcm, password: KixLvKzwjekG00rm, udp: true}
+  - {name: BA波黑(Youtube技术分享室) 2, server: 185.212.111.59, port: 33992, type: ss, cipher: aes-256-gcm, password: 8n6pwAcrrv2pj6tFY2p3TbQ6, udp: true}
+  - {name: US美国(Youtube技术分享室) 4, server: 167.88.61.70, port: 7307, type: ss, cipher: aes-256-gcm, password: FoOiGlkAA9yPEGP, udp: true}
+  - {name: (Youtube技术分享室)🇺🇸美国 2, server: 167.88.61.5, port: 8080, type: ss, cipher: aes-256-gcm, password: KixLvKzwjekG00rm, udp: true}
+  - {name: (Youtube技术分享室)🇰🇷韩国, server: 158.247.221.139, port: 6379, type: ss, cipher: aes-256-gcm, password: zDNVedRFPQexG9v, udp: true}
+  - {name: US(Youtube技术分享室整理) 5, server: 38.68.135.93, port: 5003, type: ss, cipher: aes-256-gcm, password: g5MeD6Ft3CWlJId, udp: true}
+  - {name: (Youtube技术分享室)🇬🇧英国 5, server: 172.99.190.109, port: 9101, type: ss, cipher: aes-256-gcm, password: e4FCWrgpkji3QY, udp: true}
+  - {name: GB英国(Youtube技术分享室) 12, server: 172.99.190.39, port: 6697, type: ss, cipher: aes-256-gcm, password: TEzjfAYq2IjtuoS, udp: true}
+  - {name: (Youtube技术分享室)🇦🇺澳大利亚 2, server: 172.105.190.20, port: 7306, type: ss, cipher: aes-256-gcm, password: FoOiGlkAA9yPEGP, udp: true}
+  - {name: (Youtube技术分享室)🇺🇸美国 3, server: 167.88.61.5, port: 2376, type: ss, cipher: aes-256-gcm, password: faBAoD54k87UJG7, udp: true}
+  - {name: 美国(Youtube技术分享室整理), server: 167.88.63.74, port: 7307, type: ss, cipher: aes-256-gcm, password: FoOiGlkAA9yPEGP, udp: true}
+  - {name: FR法国(Youtube技术分享室) 2, server: 54.38.72.170, port: 5003, type: ss, cipher: aes-256-gcm, password: g5MeD6Ft3CWlJId, udp: true}
+  - {name: US(Youtube技术分享室整理) 6, server: 38.75.137.71, port: 5003, type: ss, cipher: aes-256-gcm, password: g5MeD6Ft3CWlJId, udp: true}
+  - {name: _韩国(Youtube技术分享室整理) 2, server: 158.247.224.121, port: 2376, type: ss, cipher: aes-256-gcm, password: faBAoD54k87UJG7, udp: true}
+  - {name: _韩国(Youtube技术分享室整理) 3, server: 158.247.224.121, port: 8009, type: ss, cipher: aes-256-gcm, password: XKFKl2rULjIp74, udp: true}
+  - {name: 美国(Youtube技术分享室整理) 2, server: 38.75.137.187, port: 2376, type: ss, cipher: aes-256-gcm, password: faBAoD54k87UJG7, udp: true}
+  - {name: AU澳大利亚(Youtube技术分享室) 2, server: 172.105.180.227, port: 8091, type: ss, cipher: aes-256-gcm, password: PCnnH6SQSnfoS27, udp: true}
+  - {name: TW(Youtube技术分享室整理), server: 139.162.139.42, port: 7307, type: ss, cipher: aes-256-gcm, password: FoOiGlkAA9yPEGP, udp: true}
+  - {name: US美国(Youtube技术分享室) 5, server: 169.197.142.21, port: 8008, type: ss, cipher: aes-256-gcm, password: XKFKl2rULjIp74, udp: true}
+  - {name: (Youtube技术分享室)🇩🇪德国 2, server: 139.162.132.116, port: 5601, type: ss, cipher: aes-256-gcm, password: Y6R9pAtvxxzmGC, udp: true}
+  - {name: AU澳大利亚(Youtube技术分享室) 3, server: 172.105.180.227, port: 8000, type: ss, cipher: aes-256-gcm, password: KixLvKzwjekG00rm, udp: true}
+  - {name: US(Youtube技术分享室整理) 7, server: 38.68.134.202, port: 2376, type: ss, cipher: aes-256-gcm, password: faBAoD54k87UJG7, udp: true}
+  - {name: (Youtube技术分享室)🇰🇷韩国 2, server: 158.247.224.121, port: 8888, type: ss, cipher: aes-256-gcm, password: Y6R9pAtvxxzmGC, udp: true}
+  - {name: (Youtube技术分享室)🇩🇪德国 3, server: 139.162.132.116, port: 8008, type: ss, cipher: aes-256-gcm, password: XKFKl2rULjIp74, udp: true}
+  - {name: (Youtube技术分享室)🇬🇧英国 6, server: 172.99.190.188, port: 5001, type: ss, cipher: aes-256-gcm, password: Y6R9pAtvxxzmGC, udp: true}
+  - {name: US美国(Youtube技术分享室) 6, server: 167.88.61.70, port: 7001, type: ss, cipher: aes-256-gcm, password: RexnBgU7EV5ADxG, udp: true}
+  - {name: FR法国(Youtube技术分享室) 3, server: 145.239.1.100, port: 7001, type: ss, cipher: aes-256-gcm, password: RexnBgU7EV5ADxG, udp: true}
+  - {name: (Youtube技术分享室)🇵🇱波兰, server: 194.15.196.106, port: 7002, type: ss, cipher: aes-256-gcm, password: RexnBgU7EV5ADxG, udp: true}
+  - {name: US美国(Youtube技术分享室) 7, server: 169.197.142.48, port: 8119, type: ss, cipher: aes-256-gcm, password: cdBIDV42DCwnfIN, udp: true}
+  - {name: US美国(Youtube技术分享室) 8, server: 167.88.63.123, port: 6679, type: ss, cipher: aes-256-gcm, password: TEzjfAYq2IjtuoS, udp: true}
+  - {name: US美国(Youtube技术分享室) 9, server: 162.251.61.241, port: 7307, type: ss, cipher: aes-256-gcm, password: FoOiGlkAA9yPEGP, udp: true}
+  - {name: 加拿大🇨🇦(Youtube技术分享室整理), server: 134.195.196.12, port: 8090, type: ss, cipher: aes-256-gcm, password: PCnnH6SQSnfoS27, udp: true}
+  - {name: (Youtube技术分享室)🇫🇷法国, server: 188.165.32.235, port: 9101, type: ss, cipher: aes-256-gcm, password: e4FCWrgpkji3QY, udp: true}
+  - {name: US(Youtube技术分享室整理) 8, server: 167.88.63.61, port: 8881, type: ss, cipher: aes-256-gcm, password: kDWvXYZoTBcGkC4, udp: true}
+  - {name: (Youtube技术分享室)🇰🇷韩国 3, server: 158.247.224.121, port: 8000, type: ss, cipher: aes-256-gcm, password: KixLvKzwjekG00rm, udp: true}
+  - {name: US美国(Youtube技术分享室) 10, server: 38.114.114.19, port: 7001, type: ss, cipher: aes-256-gcm, password: RexnBgU7EV5ADxG, udp: true}
+  - {name: US美国(Youtube技术分享室) 11, server: 38.68.135.239, port: 8118, type: ss, cipher: aes-256-gcm, password: cdBIDV42DCwnfIN, udp: true}
+  - {name: US美国(Youtube技术分享室) 12, server: 167.88.63.107, port: 8090, type: ss, cipher: aes-256-gcm, password: PCnnH6SQSnfoS27, udp: true}
+  - {name: US美国(Youtube技术分享室) 13, server: 38.68.135.239, port: 5001, type: ss, cipher: aes-256-gcm, password: Y6R9pAtvxxzmGC, udp: true}
+  - {name: US美国(Youtube技术分享室) 14, server: 38.114.114.19, port: 8882, type: ss, cipher: aes-256-gcm, password: kDWvXYZoTBcGkC4, udp: true}
+  - {name: US美国(Youtube技术分享室) 15, server: 38.107.226.149, port: 2375, type: ss, cipher: aes-256-gcm, password: faBAoD54k87UJG7, udp: true}
+  - {name: US美国(Youtube技术分享室) 16, server: 38.114.114.67, port: 2376, type: ss, cipher: aes-256-gcm, password: faBAoD54k87UJG7, udp: true}
+  - {name: US美国(Youtube技术分享室) 17, server: 167.88.61.213, port: 8882, type: ss, cipher: aes-256-gcm, password: kDWvXYZoTBcGkC4, udp: true}
+  - {name: US美国(Youtube技术分享室) 18, server: 38.75.136.127, port: 5004, type: ss, cipher: aes-256-gcm, password: g5MeD6Ft3CWlJId, udp: true}
+  - {name: (Youtube技术分享室)🇩🇪德国 4, server: 139.162.130.101, port: 5003, type: ss, cipher: aes-256-gcm, password: g5MeD6Ft3CWlJId, udp: true}
+  - {name: US美国(Youtube技术分享室) 19, server: 38.114.114.49, port: 7001, type: ss, cipher: aes-256-gcm, password: RexnBgU7EV5ADxG, udp: true}
+  - {name: CA加拿大(Youtube技术分享室), server: 134.195.196.149, port: 8080, type: ss, cipher: aes-256-gcm, password: KixLvKzwjekG00rm, udp: true}
+  - {name: 加拿大🇨🇦(Youtube技术分享室整理) 2, server: 198.57.27.172, port: 443, type: ss, cipher: aes-256-gcm, password: pKEW8JPByTVTLtM, udp: true}
+  - {name: US美国(Youtube技术分享室) 20, server: 38.68.135.112, port: 5003, type: ss, cipher: aes-256-gcm, password: g5MeD6Ft3CWlJId, udp: true}
+  - {name: (Youtube技术分享室)🇺🇸美国 4, server: 38.75.136.21, port: 7001, type: ss, cipher: aes-256-gcm, password: RexnBgU7EV5ADxG, udp: true}
+  - {name: GB英国(Youtube技术分享室) 13, server: 212.38.189.174, port: 5600, type: ss, cipher: aes-256-gcm, password: Y6R9pAtvxxzmGC, udp: true}
+  - {name: US美国(Youtube技术分享室) 21, server: 167.88.62.66, port: 8882, type: ss, cipher: aes-256-gcm, password: kDWvXYZoTBcGkC4, udp: true}
+  - {name: US美国(Youtube技术分享室) 22, server: 38.68.135.239, port: 5500, type: ss, cipher: aes-256-gcm, password: KixLvKzwjekG00rm, udp: true}
+  - {name: (Youtube技术分享室)🇬🇧英国 7, server: 172.99.190.188, port: 5600, type: ss, cipher: aes-256-gcm, password: Y6R9pAtvxxzmGC, udp: true}
+  - {name: GB英国(Youtube技术分享室) 14, server: 172.99.190.39, port: 8080, type: ss, cipher: aes-256-gcm, password: KixLvKzwjekG00rm, udp: true}
+  - {name: (Youtube技术分享室)🇫🇷法国 2, server: 54.37.192.112, port: 443, type: vmess, uuid: 9f58234c-355b-4065-ae21-d4a63099aba5, alterId: 64, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-path: /path/120208301422, ws-headers: {Host: www.15738743.xyz}, udp: true}
 proxy-groups:
   - name: 🔰 节点选择
     type: select
     proxies:
       - ♻️ 自动选择
       - 🎯 全球直连
+      - 日本+🇯🇵(Youtube技术分享室整理)
+      - SG新加坡(Youtube技术分享室)
+      - SG新加坡(Youtube技术分享室) 2
+      - SG新加坡(Youtube技术分享室) 3
+      - RO(Youtube技术分享室整理)
+      - SG新加坡(Youtube技术分享室) 4
+      - SG新加坡(Youtube技术分享室) 5
+      - SG新加坡(Youtube技术分享室) 6
+      - SG新加坡(Youtube技术分享室) 7
+      - GB英国(Youtube技术分享室)
+      - US美国(Youtube技术分享室整理)
+      - GB英国(Youtube技术分享室) 2
+      - GB英国(Youtube技术分享室) 3
+      - US美国(Youtube技术分享室)
       - (Youtube技术分享室)🇨🇳中国
+      - GB英国(Youtube技术分享室) 4
       - (Youtube技术分享室)🇬🇧英国
       - (Youtube技术分享室)🇬🇧英国 2
-      - FR法国(Youtube技术分享室)
-      - GB英国(Youtube技术分享室)
+      - GB英国(Youtube技术分享室) 5
       - (Youtube技术分享室)🇬🇧英国 3
-      - GB英国(Youtube技术分享室) 2
-      - FR(Youtube技术分享室整理)
-      - BA波黑(Youtube技术分享室)
-      - FR法国(Youtube技术分享室) 2
-      - (Youtube技术分享室)
-      - 中国(Youtube技术分享室)
+      - FR法国(Youtube技术分享室)
       - US(Youtube技术分享室整理)
-      - PL波兰(Youtube技术分享室)
-      - SG新加坡(Youtube技术分享室)
-      - (Youtube技术分享室)🇨🇳中国 2
-      - (Youtube技术分享室)🇩🇪德国
-      - DE德国(Youtube技术分享室)
-      - (Youtube技术分享室) 2
-      - US美国(Youtube技术分享室)
-      - (Youtube技术分享室)🇬🇧英国 4
-      - US美国(Youtube技术分享室) 2
-      - GB英国(Youtube技术分享室) 3
-      - PL(Youtube技术分享室整理)
-      - SG(Youtube技术分享室整理)
-      - US美国(Youtube技术分享室) 3
-      - US美国(Youtube技术分享室) 4
-      - CA加拿大(Youtube技术分享室)
-      - (Youtube技术分享室)🇨🇦加拿大
-      - US美国(Youtube技术分享室) 5
-      - US美国(Youtube技术分享室) 6
-      - US美国(Youtube技术分享室) 7
-      - SG新加坡(Youtube技术分享室) 2
-      - AE阿联酋(Youtube技术分享室)
+      - _英国(Youtube技术分享室整理)
+      - GB英国(Youtube技术分享室) 6
       - US(Youtube技术分享室整理) 2
+      - (Youtube技术分享室)🇳🇱荷兰
+      - (Youtube技术分享室)🇺🇸美国
+      - GB英国(Youtube技术分享室) 7
+      - GB英国(Youtube技术分享室) 8
+      - BA波黑(Youtube技术分享室)
+      - US美国(Youtube技术分享室) 2
+      - (Youtube技术分享室)🇬🇧英国 4
+      - GB英国(Youtube技术分享室) 9
+      - _英国(Youtube技术分享室整理) 2
+      - GB英国(Youtube技术分享室) 10
+      - 澳大利亚🇦🇺(Youtube技术分享室整理)
+      - 澳大利亚🇦🇺(Youtube技术分享室整理) 2
       - AU澳大利亚(Youtube技术分享室)
-      - US美国(Youtube技术分享室) 8
-      - US美国(Youtube技术分享室) 9
-      - (Youtube技术分享室)🇨🇦加拿大 2
-      - 加拿大🇨🇦(Youtube技术分享室整理)
-      - US美国(Youtube技术分享室) 10
-      - US美国(Youtube技术分享室) 11
+      - (Youtube技术分享室)🇩🇪德国
+      - GB英国(Youtube技术分享室) 11
+      - (Youtube技术分享室)🇦🇺澳大利亚
       - US(Youtube技术分享室整理) 3
       - US(Youtube技术分享室整理) 4
+      - _韩国(Youtube技术分享室整理)
+      - US美国(Youtube技术分享室) 3
+      - BA波黑(Youtube技术分享室) 2
+      - US美国(Youtube技术分享室) 4
+      - (Youtube技术分享室)🇺🇸美国 2
+      - (Youtube技术分享室)🇰🇷韩国
+      - US(Youtube技术分享室整理) 5
+      - (Youtube技术分享室)🇬🇧英国 5
+      - GB英国(Youtube技术分享室) 12
+      - (Youtube技术分享室)🇦🇺澳大利亚 2
+      - (Youtube技术分享室)🇺🇸美国 3
+      - 美国(Youtube技术分享室整理)
+      - FR法国(Youtube技术分享室) 2
+      - US(Youtube技术分享室整理) 6
+      - _韩国(Youtube技术分享室整理) 2
+      - _韩国(Youtube技术分享室整理) 3
+      - 美国(Youtube技术分享室整理) 2
+      - AU澳大利亚(Youtube技术分享室) 2
+      - TW(Youtube技术分享室整理)
+      - US美国(Youtube技术分享室) 5
+      - (Youtube技术分享室)🇩🇪德国 2
+      - AU澳大利亚(Youtube技术分享室) 3
+      - US(Youtube技术分享室整理) 7
+      - (Youtube技术分享室)🇰🇷韩国 2
+      - (Youtube技术分享室)🇩🇪德国 3
+      - (Youtube技术分享室)🇬🇧英国 6
+      - US美国(Youtube技术分享室) 6
+      - FR法国(Youtube技术分享室) 3
+      - (Youtube技术分享室)🇵🇱波兰
+      - US美国(Youtube技术分享室) 7
+      - US美国(Youtube技术分享室) 8
+      - US美国(Youtube技术分享室) 9
+      - 加拿大🇨🇦(Youtube技术分享室整理)
+      - (Youtube技术分享室)🇫🇷法国
+      - US(Youtube技术分享室整理) 8
+      - (Youtube技术分享室)🇰🇷韩国 3
+      - US美国(Youtube技术分享室) 10
+      - US美国(Youtube技术分享室) 11
       - US美国(Youtube技术分享室) 12
-      - NZ新西兰(Youtube技术分享室)
       - US美国(Youtube技术分享室) 13
       - US美国(Youtube技术分享室) 14
-      - US(Youtube技术分享室整理) 5
       - US美国(Youtube技术分享室) 15
-      - CN中国(Youtube技术分享室)
       - US美国(Youtube技术分享室) 16
-      - AU澳大利亚(Youtube技术分享室) 2
-      - US(Youtube技术分享室整理) 6
       - US美国(Youtube技术分享室) 17
-      - US(Youtube技术分享室整理) 7
-      - (Youtube技术分享室)🇺🇸美国
-      - (Youtube技术分享室)🇺🇸美国 2
-      - (Youtube技术分享室)🇺🇸美国 3
-      - CA加拿大(Youtube技术分享室) 2
-      - (Youtube技术分享室)🇨🇦加拿大 3
-      - US(Youtube技术分享室整理) 8
-      - _美国(Youtube技术分享室整理)
       - US美国(Youtube技术分享室) 18
-      - (Youtube技术分享室)🇦🇺澳大利亚
+      - (Youtube技术分享室)🇩🇪德国 4
       - US美国(Youtube技术分享室) 19
+      - CA加拿大(Youtube技术分享室)
+      - 加拿大🇨🇦(Youtube技术分享室整理) 2
       - US美国(Youtube技术分享室) 20
-      - US美国(Youtube技术分享室) 21
-      - CA加拿大(Youtube技术分享室) 3
-      - US美国(Youtube技术分享室) 22
       - (Youtube技术分享室)🇺🇸美国 4
-      - US(Youtube技术分享室整理) 9
-      - US美国(Youtube技术分享室) 23
-      - US美国(Youtube技术分享室) 24
-      - SG新加坡(Youtube技术分享室) 3
-      - US美国(Youtube技术分享室) 25
-      - US美国(Youtube技术分享室) 26
-      - US美国(Youtube技术分享室) 27
-      - US美国(Youtube技术分享室) 28
-      - CN中国(Youtube技术分享室) 2
-      - (Youtube技术分享室)🇺🇸美国 5
-      - CA加拿大(Youtube技术分享室) 4
-      - SG新加坡(Youtube技术分享室) 4
-      - US美国(Youtube技术分享室) 29
-      - _加拿大(Youtube技术分享室整理)
-      - US美国(Youtube技术分享室) 30
-      - US美国(Youtube技术分享室) 31
-      - CA加拿大(Youtube技术分享室) 5
-      - 美国(Youtube技术分享室整理)
-      - US美国(Youtube技术分享室) 32
-      - US美国(Youtube技术分享室) 33
-      - US美国(Youtube技术分享室) 34
-      - (Youtube技术分享室)🇺🇸美国 6
-      - (Youtube技术分享室)🇨🇦加拿大 4
-      - US美国(Youtube技术分享室) 35
-      - US美国(Youtube技术分享室) 36
-      - CH瑞士(Youtube技术分享室)
-      - (Youtube技术分享室)🇩🇪德国 2
-      - US美国(Youtube技术分享室) 37
-      - US美国(Youtube技术分享室) 38
+      - GB英国(Youtube技术分享室) 13
+      - US美国(Youtube技术分享室) 21
+      - US美国(Youtube技术分享室) 22
+      - (Youtube技术分享室)🇬🇧英国 7
+      - GB英国(Youtube技术分享室) 14
+      - (Youtube技术分享室)🇫🇷法国 2
   - name: ♻️ 自动选择
     type: url-test
     url: http://www.gstatic.com/generate_204
     interval: 300
     proxies:
+      - 日本+🇯🇵(Youtube技术分享室整理)
+      - SG新加坡(Youtube技术分享室)
+      - SG新加坡(Youtube技术分享室) 2
+      - SG新加坡(Youtube技术分享室) 3
+      - RO(Youtube技术分享室整理)
+      - SG新加坡(Youtube技术分享室) 4
+      - SG新加坡(Youtube技术分享室) 5
+      - SG新加坡(Youtube技术分享室) 6
+      - SG新加坡(Youtube技术分享室) 7
+      - GB英国(Youtube技术分享室)
+      - US美国(Youtube技术分享室整理)
+      - GB英国(Youtube技术分享室) 2
+      - GB英国(Youtube技术分享室) 3
+      - US美国(Youtube技术分享室)
       - (Youtube技术分享室)🇨🇳中国
+      - GB英国(Youtube技术分享室) 4
       - (Youtube技术分享室)🇬🇧英国
       - (Youtube技术分享室)🇬🇧英国 2
-      - FR法国(Youtube技术分享室)
-      - GB英国(Youtube技术分享室)
+      - GB英国(Youtube技术分享室) 5
       - (Youtube技术分享室)🇬🇧英国 3
-      - GB英国(Youtube技术分享室) 2
-      - FR(Youtube技术分享室整理)
-      - BA波黑(Youtube技术分享室)
-      - FR法国(Youtube技术分享室) 2
-      - (Youtube技术分享室)
-      - 中国(Youtube技术分享室)
+      - FR法国(Youtube技术分享室)
       - US(Youtube技术分享室整理)
-      - PL波兰(Youtube技术分享室)
-      - SG新加坡(Youtube技术分享室)
-      - (Youtube技术分享室)🇨🇳中国 2
-      - (Youtube技术分享室)🇩🇪德国
-      - DE德国(Youtube技术分享室)
-      - (Youtube技术分享室) 2
-      - US美国(Youtube技术分享室)
-      - (Youtube技术分享室)🇬🇧英国 4
-      - US美国(Youtube技术分享室) 2
-      - GB英国(Youtube技术分享室) 3
-      - PL(Youtube技术分享室整理)
-      - SG(Youtube技术分享室整理)
-      - US美国(Youtube技术分享室) 3
-      - US美国(Youtube技术分享室) 4
-      - CA加拿大(Youtube技术分享室)
-      - (Youtube技术分享室)🇨🇦加拿大
-      - US美国(Youtube技术分享室) 5
-      - US美国(Youtube技术分享室) 6
-      - US美国(Youtube技术分享室) 7
-      - SG新加坡(Youtube技术分享室) 2
-      - AE阿联酋(Youtube技术分享室)
+      - _英国(Youtube技术分享室整理)
+      - GB英国(Youtube技术分享室) 6
       - US(Youtube技术分享室整理) 2
+      - (Youtube技术分享室)🇳🇱荷兰
+      - (Youtube技术分享室)🇺🇸美国
+      - GB英国(Youtube技术分享室) 7
+      - GB英国(Youtube技术分享室) 8
+      - BA波黑(Youtube技术分享室)
+      - US美国(Youtube技术分享室) 2
+      - (Youtube技术分享室)🇬🇧英国 4
+      - GB英国(Youtube技术分享室) 9
+      - _英国(Youtube技术分享室整理) 2
+      - GB英国(Youtube技术分享室) 10
+      - 澳大利亚🇦🇺(Youtube技术分享室整理)
+      - 澳大利亚🇦🇺(Youtube技术分享室整理) 2
       - AU澳大利亚(Youtube技术分享室)
-      - US美国(Youtube技术分享室) 8
-      - US美国(Youtube技术分享室) 9
-      - (Youtube技术分享室)🇨🇦加拿大 2
-      - 加拿大🇨🇦(Youtube技术分享室整理)
-      - US美国(Youtube技术分享室) 10
-      - US美国(Youtube技术分享室) 11
+      - (Youtube技术分享室)🇩🇪德国
+      - GB英国(Youtube技术分享室) 11
+      - (Youtube技术分享室)🇦🇺澳大利亚
       - US(Youtube技术分享室整理) 3
       - US(Youtube技术分享室整理) 4
+      - _韩国(Youtube技术分享室整理)
+      - US美国(Youtube技术分享室) 3
+      - BA波黑(Youtube技术分享室) 2
+      - US美国(Youtube技术分享室) 4
+      - (Youtube技术分享室)🇺🇸美国 2
+      - (Youtube技术分享室)🇰🇷韩国
+      - US(Youtube技术分享室整理) 5
+      - (Youtube技术分享室)🇬🇧英国 5
+      - GB英国(Youtube技术分享室) 12
+      - (Youtube技术分享室)🇦🇺澳大利亚 2
+      - (Youtube技术分享室)🇺🇸美国 3
+      - 美国(Youtube技术分享室整理)
+      - FR法国(Youtube技术分享室) 2
+      - US(Youtube技术分享室整理) 6
+      - _韩国(Youtube技术分享室整理) 2
+      - _韩国(Youtube技术分享室整理) 3
+      - 美国(Youtube技术分享室整理) 2
+      - AU澳大利亚(Youtube技术分享室) 2
+      - TW(Youtube技术分享室整理)
+      - US美国(Youtube技术分享室) 5
+      - (Youtube技术分享室)🇩🇪德国 2
+      - AU澳大利亚(Youtube技术分享室) 3
+      - US(Youtube技术分享室整理) 7
+      - (Youtube技术分享室)🇰🇷韩国 2
+      - (Youtube技术分享室)🇩🇪德国 3
+      - (Youtube技术分享室)🇬🇧英国 6
+      - US美国(Youtube技术分享室) 6
+      - FR法国(Youtube技术分享室) 3
+      - (Youtube技术分享室)🇵🇱波兰
+      - US美国(Youtube技术分享室) 7
+      - US美国(Youtube技术分享室) 8
+      - US美国(Youtube技术分享室) 9
+      - 加拿大🇨🇦(Youtube技术分享室整理)
+      - (Youtube技术分享室)🇫🇷法国
+      - US(Youtube技术分享室整理) 8
+      - (Youtube技术分享室)🇰🇷韩国 3
+      - US美国(Youtube技术分享室) 10
+      - US美国(Youtube技术分享室) 11
       - US美国(Youtube技术分享室) 12
-      - NZ新西兰(Youtube技术分享室)
       - US美国(Youtube技术分享室) 13
       - US美国(Youtube技术分享室) 14
-      - US(Youtube技术分享室整理) 5
       - US美国(Youtube技术分享室) 15
-      - CN中国(Youtube技术分享室)
       - US美国(Youtube技术分享室) 16
-      - AU澳大利亚(Youtube技术分享室) 2
-      - US(Youtube技术分享室整理) 6
       - US美国(Youtube技术分享室) 17
-      - US(Youtube技术分享室整理) 7
-      - (Youtube技术分享室)🇺🇸美国
-      - (Youtube技术分享室)🇺🇸美国 2
-      - (Youtube技术分享室)🇺🇸美国 3
-      - CA加拿大(Youtube技术分享室) 2
-      - (Youtube技术分享室)🇨🇦加拿大 3
-      - US(Youtube技术分享室整理) 8
-      - _美国(Youtube技术分享室整理)
       - US美国(Youtube技术分享室) 18
-      - (Youtube技术分享室)🇦🇺澳大利亚
+      - (Youtube技术分享室)🇩🇪德国 4
       - US美国(Youtube技术分享室) 19
+      - CA加拿大(Youtube技术分享室)
+      - 加拿大🇨🇦(Youtube技术分享室整理) 2
       - US美国(Youtube技术分享室) 20
-      - US美国(Youtube技术分享室) 21
-      - CA加拿大(Youtube技术分享室) 3
-      - US美国(Youtube技术分享室) 22
       - (Youtube技术分享室)🇺🇸美国 4
-      - US(Youtube技术分享室整理) 9
-      - US美国(Youtube技术分享室) 23
-      - US美国(Youtube技术分享室) 24
-      - SG新加坡(Youtube技术分享室) 3
-      - US美国(Youtube技术分享室) 25
-      - US美国(Youtube技术分享室) 26
-      - US美国(Youtube技术分享室) 27
-      - US美国(Youtube技术分享室) 28
-      - CN中国(Youtube技术分享室) 2
-      - (Youtube技术分享室)🇺🇸美国 5
-      - CA加拿大(Youtube技术分享室) 4
-      - SG新加坡(Youtube技术分享室) 4
-      - US美国(Youtube技术分享室) 29
-      - _加拿大(Youtube技术分享室整理)
-      - US美国(Youtube技术分享室) 30
-      - US美国(Youtube技术分享室) 31
-      - CA加拿大(Youtube技术分享室) 5
-      - 美国(Youtube技术分享室整理)
-      - US美国(Youtube技术分享室) 32
-      - US美国(Youtube技术分享室) 33
-      - US美国(Youtube技术分享室) 34
-      - (Youtube技术分享室)🇺🇸美国 6
-      - (Youtube技术分享室)🇨🇦加拿大 4
-      - US美国(Youtube技术分享室) 35
-      - US美国(Youtube技术分享室) 36
-      - CH瑞士(Youtube技术分享室)
-      - (Youtube技术分享室)🇩🇪德国 2
-      - US美国(Youtube技术分享室) 37
-      - US美国(Youtube技术分享室) 38
+      - GB英国(Youtube技术分享室) 13
+      - US美国(Youtube技术分享室) 21
+      - US美国(Youtube技术分享室) 22
+      - (Youtube技术分享室)🇬🇧英国 7
+      - GB英国(Youtube技术分享室) 14
+      - (Youtube技术分享室)🇫🇷法国 2
   - name: 🎥 NETFLIX
     type: select
     proxies:
       - 🔰 节点选择
       - ♻️ 自动选择
       - 🎯 全球直连
+      - 日本+🇯🇵(Youtube技术分享室整理)
+      - SG新加坡(Youtube技术分享室)
+      - SG新加坡(Youtube技术分享室) 2
+      - SG新加坡(Youtube技术分享室) 3
+      - RO(Youtube技术分享室整理)
+      - SG新加坡(Youtube技术分享室) 4
+      - SG新加坡(Youtube技术分享室) 5
+      - SG新加坡(Youtube技术分享室) 6
+      - SG新加坡(Youtube技术分享室) 7
+      - GB英国(Youtube技术分享室)
+      - US美国(Youtube技术分享室整理)
+      - GB英国(Youtube技术分享室) 2
+      - GB英国(Youtube技术分享室) 3
+      - US美国(Youtube技术分享室)
       - (Youtube技术分享室)🇨🇳中国
+      - GB英国(Youtube技术分享室) 4
       - (Youtube技术分享室)🇬🇧英国
       - (Youtube技术分享室)🇬🇧英国 2
-      - FR法国(Youtube技术分享室)
-      - GB英国(Youtube技术分享室)
+      - GB英国(Youtube技术分享室) 5
       - (Youtube技术分享室)🇬🇧英国 3
-      - GB英国(Youtube技术分享室) 2
-      - FR(Youtube技术分享室整理)
-      - BA波黑(Youtube技术分享室)
-      - FR法国(Youtube技术分享室) 2
-      - (Youtube技术分享室)
-      - 中国(Youtube技术分享室)
+      - FR法国(Youtube技术分享室)
       - US(Youtube技术分享室整理)
-      - PL波兰(Youtube技术分享室)
-      - SG新加坡(Youtube技术分享室)
-      - (Youtube技术分享室)🇨🇳中国 2
-      - (Youtube技术分享室)🇩🇪德国
-      - DE德国(Youtube技术分享室)
-      - (Youtube技术分享室) 2
-      - US美国(Youtube技术分享室)
-      - (Youtube技术分享室)🇬🇧英国 4
-      - US美国(Youtube技术分享室) 2
-      - GB英国(Youtube技术分享室) 3
-      - PL(Youtube技术分享室整理)
-      - SG(Youtube技术分享室整理)
-      - US美国(Youtube技术分享室) 3
-      - US美国(Youtube技术分享室) 4
-      - CA加拿大(Youtube技术分享室)
-      - (Youtube技术分享室)🇨🇦加拿大
-      - US美国(Youtube技术分享室) 5
-      - US美国(Youtube技术分享室) 6
-      - US美国(Youtube技术分享室) 7
-      - SG新加坡(Youtube技术分享室) 2
-      - AE阿联酋(Youtube技术分享室)
+      - _英国(Youtube技术分享室整理)
+      - GB英国(Youtube技术分享室) 6
       - US(Youtube技术分享室整理) 2
+      - (Youtube技术分享室)🇳🇱荷兰
+      - (Youtube技术分享室)🇺🇸美国
+      - GB英国(Youtube技术分享室) 7
+      - GB英国(Youtube技术分享室) 8
+      - BA波黑(Youtube技术分享室)
+      - US美国(Youtube技术分享室) 2
+      - (Youtube技术分享室)🇬🇧英国 4
+      - GB英国(Youtube技术分享室) 9
+      - _英国(Youtube技术分享室整理) 2
+      - GB英国(Youtube技术分享室) 10
+      - 澳大利亚🇦🇺(Youtube技术分享室整理)
+      - 澳大利亚🇦🇺(Youtube技术分享室整理) 2
       - AU澳大利亚(Youtube技术分享室)
-      - US美国(Youtube技术分享室) 8
-      - US美国(Youtube技术分享室) 9
-      - (Youtube技术分享室)🇨🇦加拿大 2
-      - 加拿大🇨🇦(Youtube技术分享室整理)
-      - US美国(Youtube技术分享室) 10
-      - US美国(Youtube技术分享室) 11
+      - (Youtube技术分享室)🇩🇪德国
+      - GB英国(Youtube技术分享室) 11
+      - (Youtube技术分享室)🇦🇺澳大利亚
       - US(Youtube技术分享室整理) 3
       - US(Youtube技术分享室整理) 4
+      - _韩国(Youtube技术分享室整理)
+      - US美国(Youtube技术分享室) 3
+      - BA波黑(Youtube技术分享室) 2
+      - US美国(Youtube技术分享室) 4
+      - (Youtube技术分享室)🇺🇸美国 2
+      - (Youtube技术分享室)🇰🇷韩国
+      - US(Youtube技术分享室整理) 5
+      - (Youtube技术分享室)🇬🇧英国 5
+      - GB英国(Youtube技术分享室) 12
+      - (Youtube技术分享室)🇦🇺澳大利亚 2
+      - (Youtube技术分享室)🇺🇸美国 3
+      - 美国(Youtube技术分享室整理)
+      - FR法国(Youtube技术分享室) 2
+      - US(Youtube技术分享室整理) 6
+      - _韩国(Youtube技术分享室整理) 2
+      - _韩国(Youtube技术分享室整理) 3
+      - 美国(Youtube技术分享室整理) 2
+      - AU澳大利亚(Youtube技术分享室) 2
+      - TW(Youtube技术分享室整理)
+      - US美国(Youtube技术分享室) 5
+      - (Youtube技术分享室)🇩🇪德国 2
+      - AU澳大利亚(Youtube技术分享室) 3
+      - US(Youtube技术分享室整理) 7
+      - (Youtube技术分享室)🇰🇷韩国 2
+      - (Youtube技术分享室)🇩🇪德国 3
+      - (Youtube技术分享室)🇬🇧英国 6
+      - US美国(Youtube技术分享室) 6
+      - FR法国(Youtube技术分享室) 3
+      - (Youtube技术分享室)🇵🇱波兰
+      - US美国(Youtube技术分享室) 7
+      - US美国(Youtube技术分享室) 8
+      - US美国(Youtube技术分享室) 9
+      - 加拿大🇨🇦(Youtube技术分享室整理)
+      - (Youtube技术分享室)🇫🇷法国
+      - US(Youtube技术分享室整理) 8
+      - (Youtube技术分享室)🇰🇷韩国 3
+      - US美国(Youtube技术分享室) 10
+      - US美国(Youtube技术分享室) 11
       - US美国(Youtube技术分享室) 12
-      - NZ新西兰(Youtube技术分享室)
       - US美国(Youtube技术分享室) 13
       - US美国(Youtube技术分享室) 14
-      - US(Youtube技术分享室整理) 5
       - US美国(Youtube技术分享室) 15
-      - CN中国(Youtube技术分享室)
       - US美国(Youtube技术分享室) 16
-      - AU澳大利亚(Youtube技术分享室) 2
-      - US(Youtube技术分享室整理) 6
       - US美国(Youtube技术分享室) 17
-      - US(Youtube技术分享室整理) 7
-      - (Youtube技术分享室)🇺🇸美国
-      - (Youtube技术分享室)🇺🇸美国 2
-      - (Youtube技术分享室)🇺🇸美国 3
-      - CA加拿大(Youtube技术分享室) 2
-      - (Youtube技术分享室)🇨🇦加拿大 3
-      - US(Youtube技术分享室整理) 8
-      - _美国(Youtube技术分享室整理)
       - US美国(Youtube技术分享室) 18
-      - (Youtube技术分享室)🇦🇺澳大利亚
+      - (Youtube技术分享室)🇩🇪德国 4
       - US美国(Youtube技术分享室) 19
+      - CA加拿大(Youtube技术分享室)
+      - 加拿大🇨🇦(Youtube技术分享室整理) 2
       - US美国(Youtube技术分享室) 20
-      - US美国(Youtube技术分享室) 21
-      - CA加拿大(Youtube技术分享室) 3
-      - US美国(Youtube技术分享室) 22
       - (Youtube技术分享室)🇺🇸美国 4
-      - US(Youtube技术分享室整理) 9
-      - US美国(Youtube技术分享室) 23
-      - US美国(Youtube技术分享室) 24
-      - SG新加坡(Youtube技术分享室) 3
-      - US美国(Youtube技术分享室) 25
-      - US美国(Youtube技术分享室) 26
-      - US美国(Youtube技术分享室) 27
-      - US美国(Youtube技术分享室) 28
-      - CN中国(Youtube技术分享室) 2
-      - (Youtube技术分享室)🇺🇸美国 5
-      - CA加拿大(Youtube技术分享室) 4
-      - SG新加坡(Youtube技术分享室) 4
-      - US美国(Youtube技术分享室) 29
-      - _加拿大(Youtube技术分享室整理)
-      - US美国(Youtube技术分享室) 30
-      - US美国(Youtube技术分享室) 31
-      - CA加拿大(Youtube技术分享室) 5
-      - 美国(Youtube技术分享室整理)
-      - US美国(Youtube技术分享室) 32
-      - US美国(Youtube技术分享室) 33
-      - US美国(Youtube技术分享室) 34
-      - (Youtube技术分享室)🇺🇸美国 6
-      - (Youtube技术分享室)🇨🇦加拿大 4
-      - US美国(Youtube技术分享室) 35
-      - US美国(Youtube技术分享室) 36
-      - CH瑞士(Youtube技术分享室)
-      - (Youtube技术分享室)🇩🇪德国 2
-      - US美国(Youtube技术分享室) 37
-      - US美国(Youtube技术分享室) 38
+      - GB英国(Youtube技术分享室) 13
+      - US美国(Youtube技术分享室) 21
+      - US美国(Youtube技术分享室) 22
+      - (Youtube技术分享室)🇬🇧英国 7
+      - GB英国(Youtube技术分享室) 14
+      - (Youtube技术分享室)🇫🇷法国 2
   - name: ⛔️ 广告拦截
     type: select
     proxies:
@@ -440,106 +440,106 @@ proxy-groups:
       - 🔰 节点选择
       - ♻️ 自动选择
       - 🎯 全球直连
+      - 日本+🇯🇵(Youtube技术分享室整理)
+      - SG新加坡(Youtube技术分享室)
+      - SG新加坡(Youtube技术分享室) 2
+      - SG新加坡(Youtube技术分享室) 3
+      - RO(Youtube技术分享室整理)
+      - SG新加坡(Youtube技术分享室) 4
+      - SG新加坡(Youtube技术分享室) 5
+      - SG新加坡(Youtube技术分享室) 6
+      - SG新加坡(Youtube技术分享室) 7
+      - GB英国(Youtube技术分享室)
+      - US美国(Youtube技术分享室整理)
+      - GB英国(Youtube技术分享室) 2
+      - GB英国(Youtube技术分享室) 3
+      - US美国(Youtube技术分享室)
       - (Youtube技术分享室)🇨🇳中国
+      - GB英国(Youtube技术分享室) 4
       - (Youtube技术分享室)🇬🇧英国
       - (Youtube技术分享室)🇬🇧英国 2
-      - FR法国(Youtube技术分享室)
-      - GB英国(Youtube技术分享室)
+      - GB英国(Youtube技术分享室) 5
       - (Youtube技术分享室)🇬🇧英国 3
-      - GB英国(Youtube技术分享室) 2
-      - FR(Youtube技术分享室整理)
-      - BA波黑(Youtube技术分享室)
-      - FR法国(Youtube技术分享室) 2
-      - (Youtube技术分享室)
-      - 中国(Youtube技术分享室)
+      - FR法国(Youtube技术分享室)
       - US(Youtube技术分享室整理)
-      - PL波兰(Youtube技术分享室)
-      - SG新加坡(Youtube技术分享室)
-      - (Youtube技术分享室)🇨🇳中国 2
-      - (Youtube技术分享室)🇩🇪德国
-      - DE德国(Youtube技术分享室)
-      - (Youtube技术分享室) 2
-      - US美国(Youtube技术分享室)
-      - (Youtube技术分享室)🇬🇧英国 4
-      - US美国(Youtube技术分享室) 2
-      - GB英国(Youtube技术分享室) 3
-      - PL(Youtube技术分享室整理)
-      - SG(Youtube技术分享室整理)
-      - US美国(Youtube技术分享室) 3
-      - US美国(Youtube技术分享室) 4
-      - CA加拿大(Youtube技术分享室)
-      - (Youtube技术分享室)🇨🇦加拿大
-      - US美国(Youtube技术分享室) 5
-      - US美国(Youtube技术分享室) 6
-      - US美国(Youtube技术分享室) 7
-      - SG新加坡(Youtube技术分享室) 2
-      - AE阿联酋(Youtube技术分享室)
+      - _英国(Youtube技术分享室整理)
+      - GB英国(Youtube技术分享室) 6
       - US(Youtube技术分享室整理) 2
+      - (Youtube技术分享室)🇳🇱荷兰
+      - (Youtube技术分享室)🇺🇸美国
+      - GB英国(Youtube技术分享室) 7
+      - GB英国(Youtube技术分享室) 8
+      - BA波黑(Youtube技术分享室)
+      - US美国(Youtube技术分享室) 2
+      - (Youtube技术分享室)🇬🇧英国 4
+      - GB英国(Youtube技术分享室) 9
+      - _英国(Youtube技术分享室整理) 2
+      - GB英国(Youtube技术分享室) 10
+      - 澳大利亚🇦🇺(Youtube技术分享室整理)
+      - 澳大利亚🇦🇺(Youtube技术分享室整理) 2
       - AU澳大利亚(Youtube技术分享室)
-      - US美国(Youtube技术分享室) 8
-      - US美国(Youtube技术分享室) 9
-      - (Youtube技术分享室)🇨🇦加拿大 2
-      - 加拿大🇨🇦(Youtube技术分享室整理)
-      - US美国(Youtube技术分享室) 10
-      - US美国(Youtube技术分享室) 11
+      - (Youtube技术分享室)🇩🇪德国
+      - GB英国(Youtube技术分享室) 11
+      - (Youtube技术分享室)🇦🇺澳大利亚
       - US(Youtube技术分享室整理) 3
       - US(Youtube技术分享室整理) 4
+      - _韩国(Youtube技术分享室整理)
+      - US美国(Youtube技术分享室) 3
+      - BA波黑(Youtube技术分享室) 2
+      - US美国(Youtube技术分享室) 4
+      - (Youtube技术分享室)🇺🇸美国 2
+      - (Youtube技术分享室)🇰🇷韩国
+      - US(Youtube技术分享室整理) 5
+      - (Youtube技术分享室)🇬🇧英国 5
+      - GB英国(Youtube技术分享室) 12
+      - (Youtube技术分享室)🇦🇺澳大利亚 2
+      - (Youtube技术分享室)🇺🇸美国 3
+      - 美国(Youtube技术分享室整理)
+      - FR法国(Youtube技术分享室) 2
+      - US(Youtube技术分享室整理) 6
+      - _韩国(Youtube技术分享室整理) 2
+      - _韩国(Youtube技术分享室整理) 3
+      - 美国(Youtube技术分享室整理) 2
+      - AU澳大利亚(Youtube技术分享室) 2
+      - TW(Youtube技术分享室整理)
+      - US美国(Youtube技术分享室) 5
+      - (Youtube技术分享室)🇩🇪德国 2
+      - AU澳大利亚(Youtube技术分享室) 3
+      - US(Youtube技术分享室整理) 7
+      - (Youtube技术分享室)🇰🇷韩国 2
+      - (Youtube技术分享室)🇩🇪德国 3
+      - (Youtube技术分享室)🇬🇧英国 6
+      - US美国(Youtube技术分享室) 6
+      - FR法国(Youtube技术分享室) 3
+      - (Youtube技术分享室)🇵🇱波兰
+      - US美国(Youtube技术分享室) 7
+      - US美国(Youtube技术分享室) 8
+      - US美国(Youtube技术分享室) 9
+      - 加拿大🇨🇦(Youtube技术分享室整理)
+      - (Youtube技术分享室)🇫🇷法国
+      - US(Youtube技术分享室整理) 8
+      - (Youtube技术分享室)🇰🇷韩国 3
+      - US美国(Youtube技术分享室) 10
+      - US美国(Youtube技术分享室) 11
       - US美国(Youtube技术分享室) 12
-      - NZ新西兰(Youtube技术分享室)
       - US美国(Youtube技术分享室) 13
       - US美国(Youtube技术分享室) 14
-      - US(Youtube技术分享室整理) 5
       - US美国(Youtube技术分享室) 15
-      - CN中国(Youtube技术分享室)
       - US美国(Youtube技术分享室) 16
-      - AU澳大利亚(Youtube技术分享室) 2
-      - US(Youtube技术分享室整理) 6
       - US美国(Youtube技术分享室) 17
-      - US(Youtube技术分享室整理) 7
-      - (Youtube技术分享室)🇺🇸美国
-      - (Youtube技术分享室)🇺🇸美国 2
-      - (Youtube技术分享室)🇺🇸美国 3
-      - CA加拿大(Youtube技术分享室) 2
-      - (Youtube技术分享室)🇨🇦加拿大 3
-      - US(Youtube技术分享室整理) 8
-      - _美国(Youtube技术分享室整理)
       - US美国(Youtube技术分享室) 18
-      - (Youtube技术分享室)🇦🇺澳大利亚
+      - (Youtube技术分享室)🇩🇪德国 4
       - US美国(Youtube技术分享室) 19
+      - CA加拿大(Youtube技术分享室)
+      - 加拿大🇨🇦(Youtube技术分享室整理) 2
       - US美国(Youtube技术分享室) 20
-      - US美国(Youtube技术分享室) 21
-      - CA加拿大(Youtube技术分享室) 3
-      - US美国(Youtube技术分享室) 22
       - (Youtube技术分享室)🇺🇸美国 4
-      - US(Youtube技术分享室整理) 9
-      - US美国(Youtube技术分享室) 23
-      - US美国(Youtube技术分享室) 24
-      - SG新加坡(Youtube技术分享室) 3
-      - US美国(Youtube技术分享室) 25
-      - US美国(Youtube技术分享室) 26
-      - US美国(Youtube技术分享室) 27
-      - US美国(Youtube技术分享室) 28
-      - CN中国(Youtube技术分享室) 2
-      - (Youtube技术分享室)🇺🇸美国 5
-      - CA加拿大(Youtube技术分享室) 4
-      - SG新加坡(Youtube技术分享室) 4
-      - US美国(Youtube技术分享室) 29
-      - _加拿大(Youtube技术分享室整理)
-      - US美国(Youtube技术分享室) 30
-      - US美国(Youtube技术分享室) 31
-      - CA加拿大(Youtube技术分享室) 5
-      - 美国(Youtube技术分享室整理)
-      - US美国(Youtube技术分享室) 32
-      - US美国(Youtube技术分享室) 33
-      - US美国(Youtube技术分享室) 34
-      - (Youtube技术分享室)🇺🇸美国 6
-      - (Youtube技术分享室)🇨🇦加拿大 4
-      - US美国(Youtube技术分享室) 35
-      - US美国(Youtube技术分享室) 36
-      - CH瑞士(Youtube技术分享室)
-      - (Youtube技术分享室)🇩🇪德国 2
-      - US美国(Youtube技术分享室) 37
-      - US美国(Youtube技术分享室) 38
+      - GB英国(Youtube技术分享室) 13
+      - US美国(Youtube技术分享室) 21
+      - US美国(Youtube技术分享室) 22
+      - (Youtube技术分享室)🇬🇧英国 7
+      - GB英国(Youtube技术分享室) 14
+      - (Youtube技术分享室)🇫🇷法国 2
   - name: 🌏 国内媒体
     type: select
     proxies:
@@ -550,317 +550,317 @@ proxy-groups:
     proxies:
       - 🎯 全球直连
       - 🔰 节点选择
+      - 日本+🇯🇵(Youtube技术分享室整理)
+      - SG新加坡(Youtube技术分享室)
+      - SG新加坡(Youtube技术分享室) 2
+      - SG新加坡(Youtube技术分享室) 3
+      - RO(Youtube技术分享室整理)
+      - SG新加坡(Youtube技术分享室) 4
+      - SG新加坡(Youtube技术分享室) 5
+      - SG新加坡(Youtube技术分享室) 6
+      - SG新加坡(Youtube技术分享室) 7
+      - GB英国(Youtube技术分享室)
+      - US美国(Youtube技术分享室整理)
+      - GB英国(Youtube技术分享室) 2
+      - GB英国(Youtube技术分享室) 3
+      - US美国(Youtube技术分享室)
       - (Youtube技术分享室)🇨🇳中国
+      - GB英国(Youtube技术分享室) 4
       - (Youtube技术分享室)🇬🇧英国
       - (Youtube技术分享室)🇬🇧英国 2
-      - FR法国(Youtube技术分享室)
-      - GB英国(Youtube技术分享室)
+      - GB英国(Youtube技术分享室) 5
       - (Youtube技术分享室)🇬🇧英国 3
-      - GB英国(Youtube技术分享室) 2
-      - FR(Youtube技术分享室整理)
-      - BA波黑(Youtube技术分享室)
-      - FR法国(Youtube技术分享室) 2
-      - (Youtube技术分享室)
-      - 中国(Youtube技术分享室)
+      - FR法国(Youtube技术分享室)
       - US(Youtube技术分享室整理)
-      - PL波兰(Youtube技术分享室)
-      - SG新加坡(Youtube技术分享室)
-      - (Youtube技术分享室)🇨🇳中国 2
-      - (Youtube技术分享室)🇩🇪德国
-      - DE德国(Youtube技术分享室)
-      - (Youtube技术分享室) 2
-      - US美国(Youtube技术分享室)
-      - (Youtube技术分享室)🇬🇧英国 4
-      - US美国(Youtube技术分享室) 2
-      - GB英国(Youtube技术分享室) 3
-      - PL(Youtube技术分享室整理)
-      - SG(Youtube技术分享室整理)
-      - US美国(Youtube技术分享室) 3
-      - US美国(Youtube技术分享室) 4
-      - CA加拿大(Youtube技术分享室)
-      - (Youtube技术分享室)🇨🇦加拿大
-      - US美国(Youtube技术分享室) 5
-      - US美国(Youtube技术分享室) 6
-      - US美国(Youtube技术分享室) 7
-      - SG新加坡(Youtube技术分享室) 2
-      - AE阿联酋(Youtube技术分享室)
+      - _英国(Youtube技术分享室整理)
+      - GB英国(Youtube技术分享室) 6
       - US(Youtube技术分享室整理) 2
+      - (Youtube技术分享室)🇳🇱荷兰
+      - (Youtube技术分享室)🇺🇸美国
+      - GB英国(Youtube技术分享室) 7
+      - GB英国(Youtube技术分享室) 8
+      - BA波黑(Youtube技术分享室)
+      - US美国(Youtube技术分享室) 2
+      - (Youtube技术分享室)🇬🇧英国 4
+      - GB英国(Youtube技术分享室) 9
+      - _英国(Youtube技术分享室整理) 2
+      - GB英国(Youtube技术分享室) 10
+      - 澳大利亚🇦🇺(Youtube技术分享室整理)
+      - 澳大利亚🇦🇺(Youtube技术分享室整理) 2
       - AU澳大利亚(Youtube技术分享室)
-      - US美国(Youtube技术分享室) 8
-      - US美国(Youtube技术分享室) 9
-      - (Youtube技术分享室)🇨🇦加拿大 2
-      - 加拿大🇨🇦(Youtube技术分享室整理)
-      - US美国(Youtube技术分享室) 10
-      - US美国(Youtube技术分享室) 11
+      - (Youtube技术分享室)🇩🇪德国
+      - GB英国(Youtube技术分享室) 11
+      - (Youtube技术分享室)🇦🇺澳大利亚
       - US(Youtube技术分享室整理) 3
       - US(Youtube技术分享室整理) 4
+      - _韩国(Youtube技术分享室整理)
+      - US美国(Youtube技术分享室) 3
+      - BA波黑(Youtube技术分享室) 2
+      - US美国(Youtube技术分享室) 4
+      - (Youtube技术分享室)🇺🇸美国 2
+      - (Youtube技术分享室)🇰🇷韩国
+      - US(Youtube技术分享室整理) 5
+      - (Youtube技术分享室)🇬🇧英国 5
+      - GB英国(Youtube技术分享室) 12
+      - (Youtube技术分享室)🇦🇺澳大利亚 2
+      - (Youtube技术分享室)🇺🇸美国 3
+      - 美国(Youtube技术分享室整理)
+      - FR法国(Youtube技术分享室) 2
+      - US(Youtube技术分享室整理) 6
+      - _韩国(Youtube技术分享室整理) 2
+      - _韩国(Youtube技术分享室整理) 3
+      - 美国(Youtube技术分享室整理) 2
+      - AU澳大利亚(Youtube技术分享室) 2
+      - TW(Youtube技术分享室整理)
+      - US美国(Youtube技术分享室) 5
+      - (Youtube技术分享室)🇩🇪德国 2
+      - AU澳大利亚(Youtube技术分享室) 3
+      - US(Youtube技术分享室整理) 7
+      - (Youtube技术分享室)🇰🇷韩国 2
+      - (Youtube技术分享室)🇩🇪德国 3
+      - (Youtube技术分享室)🇬🇧英国 6
+      - US美国(Youtube技术分享室) 6
+      - FR法国(Youtube技术分享室) 3
+      - (Youtube技术分享室)🇵🇱波兰
+      - US美国(Youtube技术分享室) 7
+      - US美国(Youtube技术分享室) 8
+      - US美国(Youtube技术分享室) 9
+      - 加拿大🇨🇦(Youtube技术分享室整理)
+      - (Youtube技术分享室)🇫🇷法国
+      - US(Youtube技术分享室整理) 8
+      - (Youtube技术分享室)🇰🇷韩国 3
+      - US美国(Youtube技术分享室) 10
+      - US美国(Youtube技术分享室) 11
       - US美国(Youtube技术分享室) 12
-      - NZ新西兰(Youtube技术分享室)
       - US美国(Youtube技术分享室) 13
       - US美国(Youtube技术分享室) 14
-      - US(Youtube技术分享室整理) 5
       - US美国(Youtube技术分享室) 15
-      - CN中国(Youtube技术分享室)
       - US美国(Youtube技术分享室) 16
-      - AU澳大利亚(Youtube技术分享室) 2
-      - US(Youtube技术分享室整理) 6
       - US美国(Youtube技术分享室) 17
-      - US(Youtube技术分享室整理) 7
-      - (Youtube技术分享室)🇺🇸美国
-      - (Youtube技术分享室)🇺🇸美国 2
-      - (Youtube技术分享室)🇺🇸美国 3
-      - CA加拿大(Youtube技术分享室) 2
-      - (Youtube技术分享室)🇨🇦加拿大 3
-      - US(Youtube技术分享室整理) 8
-      - _美国(Youtube技术分享室整理)
       - US美国(Youtube技术分享室) 18
-      - (Youtube技术分享室)🇦🇺澳大利亚
+      - (Youtube技术分享室)🇩🇪德国 4
       - US美国(Youtube技术分享室) 19
+      - CA加拿大(Youtube技术分享室)
+      - 加拿大🇨🇦(Youtube技术分享室整理) 2
       - US美国(Youtube技术分享室) 20
-      - US美国(Youtube技术分享室) 21
-      - CA加拿大(Youtube技术分享室) 3
-      - US美国(Youtube技术分享室) 22
       - (Youtube技术分享室)🇺🇸美国 4
-      - US(Youtube技术分享室整理) 9
-      - US美国(Youtube技术分享室) 23
-      - US美国(Youtube技术分享室) 24
-      - SG新加坡(Youtube技术分享室) 3
-      - US美国(Youtube技术分享室) 25
-      - US美国(Youtube技术分享室) 26
-      - US美国(Youtube技术分享室) 27
-      - US美国(Youtube技术分享室) 28
-      - CN中国(Youtube技术分享室) 2
-      - (Youtube技术分享室)🇺🇸美国 5
-      - CA加拿大(Youtube技术分享室) 4
-      - SG新加坡(Youtube技术分享室) 4
-      - US美国(Youtube技术分享室) 29
-      - _加拿大(Youtube技术分享室整理)
-      - US美国(Youtube技术分享室) 30
-      - US美国(Youtube技术分享室) 31
-      - CA加拿大(Youtube技术分享室) 5
-      - 美国(Youtube技术分享室整理)
-      - US美国(Youtube技术分享室) 32
-      - US美国(Youtube技术分享室) 33
-      - US美国(Youtube技术分享室) 34
-      - (Youtube技术分享室)🇺🇸美国 6
-      - (Youtube技术分享室)🇨🇦加拿大 4
-      - US美国(Youtube技术分享室) 35
-      - US美国(Youtube技术分享室) 36
-      - CH瑞士(Youtube技术分享室)
-      - (Youtube技术分享室)🇩🇪德国 2
-      - US美国(Youtube技术分享室) 37
-      - US美国(Youtube技术分享室) 38
+      - GB英国(Youtube技术分享室) 13
+      - US美国(Youtube技术分享室) 21
+      - US美国(Youtube技术分享室) 22
+      - (Youtube技术分享室)🇬🇧英国 7
+      - GB英国(Youtube技术分享室) 14
+      - (Youtube技术分享室)🇫🇷法国 2
   - name: 📲 电报信息
     type: select
     proxies:
       - 🔰 节点选择
       - 🎯 全球直连
+      - 日本+🇯🇵(Youtube技术分享室整理)
+      - SG新加坡(Youtube技术分享室)
+      - SG新加坡(Youtube技术分享室) 2
+      - SG新加坡(Youtube技术分享室) 3
+      - RO(Youtube技术分享室整理)
+      - SG新加坡(Youtube技术分享室) 4
+      - SG新加坡(Youtube技术分享室) 5
+      - SG新加坡(Youtube技术分享室) 6
+      - SG新加坡(Youtube技术分享室) 7
+      - GB英国(Youtube技术分享室)
+      - US美国(Youtube技术分享室整理)
+      - GB英国(Youtube技术分享室) 2
+      - GB英国(Youtube技术分享室) 3
+      - US美国(Youtube技术分享室)
       - (Youtube技术分享室)🇨🇳中国
+      - GB英国(Youtube技术分享室) 4
       - (Youtube技术分享室)🇬🇧英国
       - (Youtube技术分享室)🇬🇧英国 2
-      - FR法国(Youtube技术分享室)
-      - GB英国(Youtube技术分享室)
+      - GB英国(Youtube技术分享室) 5
       - (Youtube技术分享室)🇬🇧英国 3
-      - GB英国(Youtube技术分享室) 2
-      - FR(Youtube技术分享室整理)
-      - BA波黑(Youtube技术分享室)
-      - FR法国(Youtube技术分享室) 2
-      - (Youtube技术分享室)
-      - 中国(Youtube技术分享室)
+      - FR法国(Youtube技术分享室)
       - US(Youtube技术分享室整理)
-      - PL波兰(Youtube技术分享室)
-      - SG新加坡(Youtube技术分享室)
-      - (Youtube技术分享室)🇨🇳中国 2
-      - (Youtube技术分享室)🇩🇪德国
-      - DE德国(Youtube技术分享室)
-      - (Youtube技术分享室) 2
-      - US美国(Youtube技术分享室)
-      - (Youtube技术分享室)🇬🇧英国 4
-      - US美国(Youtube技术分享室) 2
-      - GB英国(Youtube技术分享室) 3
-      - PL(Youtube技术分享室整理)
-      - SG(Youtube技术分享室整理)
-      - US美国(Youtube技术分享室) 3
-      - US美国(Youtube技术分享室) 4
-      - CA加拿大(Youtube技术分享室)
-      - (Youtube技术分享室)🇨🇦加拿大
-      - US美国(Youtube技术分享室) 5
-      - US美国(Youtube技术分享室) 6
-      - US美国(Youtube技术分享室) 7
-      - SG新加坡(Youtube技术分享室) 2
-      - AE阿联酋(Youtube技术分享室)
+      - _英国(Youtube技术分享室整理)
+      - GB英国(Youtube技术分享室) 6
       - US(Youtube技术分享室整理) 2
+      - (Youtube技术分享室)🇳🇱荷兰
+      - (Youtube技术分享室)🇺🇸美国
+      - GB英国(Youtube技术分享室) 7
+      - GB英国(Youtube技术分享室) 8
+      - BA波黑(Youtube技术分享室)
+      - US美国(Youtube技术分享室) 2
+      - (Youtube技术分享室)🇬🇧英国 4
+      - GB英国(Youtube技术分享室) 9
+      - _英国(Youtube技术分享室整理) 2
+      - GB英国(Youtube技术分享室) 10
+      - 澳大利亚🇦🇺(Youtube技术分享室整理)
+      - 澳大利亚🇦🇺(Youtube技术分享室整理) 2
       - AU澳大利亚(Youtube技术分享室)
-      - US美国(Youtube技术分享室) 8
-      - US美国(Youtube技术分享室) 9
-      - (Youtube技术分享室)🇨🇦加拿大 2
-      - 加拿大🇨🇦(Youtube技术分享室整理)
-      - US美国(Youtube技术分享室) 10
-      - US美国(Youtube技术分享室) 11
+      - (Youtube技术分享室)🇩🇪德国
+      - GB英国(Youtube技术分享室) 11
+      - (Youtube技术分享室)🇦🇺澳大利亚
       - US(Youtube技术分享室整理) 3
       - US(Youtube技术分享室整理) 4
+      - _韩国(Youtube技术分享室整理)
+      - US美国(Youtube技术分享室) 3
+      - BA波黑(Youtube技术分享室) 2
+      - US美国(Youtube技术分享室) 4
+      - (Youtube技术分享室)🇺🇸美国 2
+      - (Youtube技术分享室)🇰🇷韩国
+      - US(Youtube技术分享室整理) 5
+      - (Youtube技术分享室)🇬🇧英国 5
+      - GB英国(Youtube技术分享室) 12
+      - (Youtube技术分享室)🇦🇺澳大利亚 2
+      - (Youtube技术分享室)🇺🇸美国 3
+      - 美国(Youtube技术分享室整理)
+      - FR法国(Youtube技术分享室) 2
+      - US(Youtube技术分享室整理) 6
+      - _韩国(Youtube技术分享室整理) 2
+      - _韩国(Youtube技术分享室整理) 3
+      - 美国(Youtube技术分享室整理) 2
+      - AU澳大利亚(Youtube技术分享室) 2
+      - TW(Youtube技术分享室整理)
+      - US美国(Youtube技术分享室) 5
+      - (Youtube技术分享室)🇩🇪德国 2
+      - AU澳大利亚(Youtube技术分享室) 3
+      - US(Youtube技术分享室整理) 7
+      - (Youtube技术分享室)🇰🇷韩国 2
+      - (Youtube技术分享室)🇩🇪德国 3
+      - (Youtube技术分享室)🇬🇧英国 6
+      - US美国(Youtube技术分享室) 6
+      - FR法国(Youtube技术分享室) 3
+      - (Youtube技术分享室)🇵🇱波兰
+      - US美国(Youtube技术分享室) 7
+      - US美国(Youtube技术分享室) 8
+      - US美国(Youtube技术分享室) 9
+      - 加拿大🇨🇦(Youtube技术分享室整理)
+      - (Youtube技术分享室)🇫🇷法国
+      - US(Youtube技术分享室整理) 8
+      - (Youtube技术分享室)🇰🇷韩国 3
+      - US美国(Youtube技术分享室) 10
+      - US美国(Youtube技术分享室) 11
       - US美国(Youtube技术分享室) 12
-      - NZ新西兰(Youtube技术分享室)
       - US美国(Youtube技术分享室) 13
       - US美国(Youtube技术分享室) 14
-      - US(Youtube技术分享室整理) 5
       - US美国(Youtube技术分享室) 15
-      - CN中国(Youtube技术分享室)
       - US美国(Youtube技术分享室) 16
-      - AU澳大利亚(Youtube技术分享室) 2
-      - US(Youtube技术分享室整理) 6
       - US美国(Youtube技术分享室) 17
-      - US(Youtube技术分享室整理) 7
-      - (Youtube技术分享室)🇺🇸美国
-      - (Youtube技术分享室)🇺🇸美国 2
-      - (Youtube技术分享室)🇺🇸美国 3
-      - CA加拿大(Youtube技术分享室) 2
-      - (Youtube技术分享室)🇨🇦加拿大 3
-      - US(Youtube技术分享室整理) 8
-      - _美国(Youtube技术分享室整理)
       - US美国(Youtube技术分享室) 18
-      - (Youtube技术分享室)🇦🇺澳大利亚
+      - (Youtube技术分享室)🇩🇪德国 4
       - US美国(Youtube技术分享室) 19
+      - CA加拿大(Youtube技术分享室)
+      - 加拿大🇨🇦(Youtube技术分享室整理) 2
       - US美国(Youtube技术分享室) 20
-      - US美国(Youtube技术分享室) 21
-      - CA加拿大(Youtube技术分享室) 3
-      - US美国(Youtube技术分享室) 22
       - (Youtube技术分享室)🇺🇸美国 4
-      - US(Youtube技术分享室整理) 9
-      - US美国(Youtube技术分享室) 23
-      - US美国(Youtube技术分享室) 24
-      - SG新加坡(Youtube技术分享室) 3
-      - US美国(Youtube技术分享室) 25
-      - US美国(Youtube技术分享室) 26
-      - US美国(Youtube技术分享室) 27
-      - US美国(Youtube技术分享室) 28
-      - CN中国(Youtube技术分享室) 2
-      - (Youtube技术分享室)🇺🇸美国 5
-      - CA加拿大(Youtube技术分享室) 4
-      - SG新加坡(Youtube技术分享室) 4
-      - US美国(Youtube技术分享室) 29
-      - _加拿大(Youtube技术分享室整理)
-      - US美国(Youtube技术分享室) 30
-      - US美国(Youtube技术分享室) 31
-      - CA加拿大(Youtube技术分享室) 5
-      - 美国(Youtube技术分享室整理)
-      - US美国(Youtube技术分享室) 32
-      - US美国(Youtube技术分享室) 33
-      - US美国(Youtube技术分享室) 34
-      - (Youtube技术分享室)🇺🇸美国 6
-      - (Youtube技术分享室)🇨🇦加拿大 4
-      - US美国(Youtube技术分享室) 35
-      - US美国(Youtube技术分享室) 36
-      - CH瑞士(Youtube技术分享室)
-      - (Youtube技术分享室)🇩🇪德国 2
-      - US美国(Youtube技术分享室) 37
-      - US美国(Youtube技术分享室) 38
+      - GB英国(Youtube技术分享室) 13
+      - US美国(Youtube技术分享室) 21
+      - US美国(Youtube技术分享室) 22
+      - (Youtube技术分享室)🇬🇧英国 7
+      - GB英国(Youtube技术分享室) 14
+      - (Youtube技术分享室)🇫🇷法国 2
   - name: 🍎 苹果服务
     type: select
     proxies:
       - 🔰 节点选择
       - 🎯 全球直连
       - ♻️ 自动选择
+      - 日本+🇯🇵(Youtube技术分享室整理)
+      - SG新加坡(Youtube技术分享室)
+      - SG新加坡(Youtube技术分享室) 2
+      - SG新加坡(Youtube技术分享室) 3
+      - RO(Youtube技术分享室整理)
+      - SG新加坡(Youtube技术分享室) 4
+      - SG新加坡(Youtube技术分享室) 5
+      - SG新加坡(Youtube技术分享室) 6
+      - SG新加坡(Youtube技术分享室) 7
+      - GB英国(Youtube技术分享室)
+      - US美国(Youtube技术分享室整理)
+      - GB英国(Youtube技术分享室) 2
+      - GB英国(Youtube技术分享室) 3
+      - US美国(Youtube技术分享室)
       - (Youtube技术分享室)🇨🇳中国
+      - GB英国(Youtube技术分享室) 4
       - (Youtube技术分享室)🇬🇧英国
       - (Youtube技术分享室)🇬🇧英国 2
-      - FR法国(Youtube技术分享室)
-      - GB英国(Youtube技术分享室)
+      - GB英国(Youtube技术分享室) 5
       - (Youtube技术分享室)🇬🇧英国 3
-      - GB英国(Youtube技术分享室) 2
-      - FR(Youtube技术分享室整理)
-      - BA波黑(Youtube技术分享室)
-      - FR法国(Youtube技术分享室) 2
-      - (Youtube技术分享室)
-      - 中国(Youtube技术分享室)
+      - FR法国(Youtube技术分享室)
       - US(Youtube技术分享室整理)
-      - PL波兰(Youtube技术分享室)
-      - SG新加坡(Youtube技术分享室)
-      - (Youtube技术分享室)🇨🇳中国 2
-      - (Youtube技术分享室)🇩🇪德国
-      - DE德国(Youtube技术分享室)
-      - (Youtube技术分享室) 2
-      - US美国(Youtube技术分享室)
-      - (Youtube技术分享室)🇬🇧英国 4
-      - US美国(Youtube技术分享室) 2
-      - GB英国(Youtube技术分享室) 3
-      - PL(Youtube技术分享室整理)
-      - SG(Youtube技术分享室整理)
-      - US美国(Youtube技术分享室) 3
-      - US美国(Youtube技术分享室) 4
-      - CA加拿大(Youtube技术分享室)
-      - (Youtube技术分享室)🇨🇦加拿大
-      - US美国(Youtube技术分享室) 5
-      - US美国(Youtube技术分享室) 6
-      - US美国(Youtube技术分享室) 7
-      - SG新加坡(Youtube技术分享室) 2
-      - AE阿联酋(Youtube技术分享室)
+      - _英国(Youtube技术分享室整理)
+      - GB英国(Youtube技术分享室) 6
       - US(Youtube技术分享室整理) 2
+      - (Youtube技术分享室)🇳🇱荷兰
+      - (Youtube技术分享室)🇺🇸美国
+      - GB英国(Youtube技术分享室) 7
+      - GB英国(Youtube技术分享室) 8
+      - BA波黑(Youtube技术分享室)
+      - US美国(Youtube技术分享室) 2
+      - (Youtube技术分享室)🇬🇧英国 4
+      - GB英国(Youtube技术分享室) 9
+      - _英国(Youtube技术分享室整理) 2
+      - GB英国(Youtube技术分享室) 10
+      - 澳大利亚🇦🇺(Youtube技术分享室整理)
+      - 澳大利亚🇦🇺(Youtube技术分享室整理) 2
       - AU澳大利亚(Youtube技术分享室)
-      - US美国(Youtube技术分享室) 8
-      - US美国(Youtube技术分享室) 9
-      - (Youtube技术分享室)🇨🇦加拿大 2
-      - 加拿大🇨🇦(Youtube技术分享室整理)
-      - US美国(Youtube技术分享室) 10
-      - US美国(Youtube技术分享室) 11
+      - (Youtube技术分享室)🇩🇪德国
+      - GB英国(Youtube技术分享室) 11
+      - (Youtube技术分享室)🇦🇺澳大利亚
       - US(Youtube技术分享室整理) 3
       - US(Youtube技术分享室整理) 4
+      - _韩国(Youtube技术分享室整理)
+      - US美国(Youtube技术分享室) 3
+      - BA波黑(Youtube技术分享室) 2
+      - US美国(Youtube技术分享室) 4
+      - (Youtube技术分享室)🇺🇸美国 2
+      - (Youtube技术分享室)🇰🇷韩国
+      - US(Youtube技术分享室整理) 5
+      - (Youtube技术分享室)🇬🇧英国 5
+      - GB英国(Youtube技术分享室) 12
+      - (Youtube技术分享室)🇦🇺澳大利亚 2
+      - (Youtube技术分享室)🇺🇸美国 3
+      - 美国(Youtube技术分享室整理)
+      - FR法国(Youtube技术分享室) 2
+      - US(Youtube技术分享室整理) 6
+      - _韩国(Youtube技术分享室整理) 2
+      - _韩国(Youtube技术分享室整理) 3
+      - 美国(Youtube技术分享室整理) 2
+      - AU澳大利亚(Youtube技术分享室) 2
+      - TW(Youtube技术分享室整理)
+      - US美国(Youtube技术分享室) 5
+      - (Youtube技术分享室)🇩🇪德国 2
+      - AU澳大利亚(Youtube技术分享室) 3
+      - US(Youtube技术分享室整理) 7
+      - (Youtube技术分享室)🇰🇷韩国 2
+      - (Youtube技术分享室)🇩🇪德国 3
+      - (Youtube技术分享室)🇬🇧英国 6
+      - US美国(Youtube技术分享室) 6
+      - FR法国(Youtube技术分享室) 3
+      - (Youtube技术分享室)🇵🇱波兰
+      - US美国(Youtube技术分享室) 7
+      - US美国(Youtube技术分享室) 8
+      - US美国(Youtube技术分享室) 9
+      - 加拿大🇨🇦(Youtube技术分享室整理)
+      - (Youtube技术分享室)🇫🇷法国
+      - US(Youtube技术分享室整理) 8
+      - (Youtube技术分享室)🇰🇷韩国 3
+      - US美国(Youtube技术分享室) 10
+      - US美国(Youtube技术分享室) 11
       - US美国(Youtube技术分享室) 12
-      - NZ新西兰(Youtube技术分享室)
       - US美国(Youtube技术分享室) 13
       - US美国(Youtube技术分享室) 14
-      - US(Youtube技术分享室整理) 5
       - US美国(Youtube技术分享室) 15
-      - CN中国(Youtube技术分享室)
       - US美国(Youtube技术分享室) 16
-      - AU澳大利亚(Youtube技术分享室) 2
-      - US(Youtube技术分享室整理) 6
       - US美国(Youtube技术分享室) 17
-      - US(Youtube技术分享室整理) 7
-      - (Youtube技术分享室)🇺🇸美国
-      - (Youtube技术分享室)🇺🇸美国 2
-      - (Youtube技术分享室)🇺🇸美国 3
-      - CA加拿大(Youtube技术分享室) 2
-      - (Youtube技术分享室)🇨🇦加拿大 3
-      - US(Youtube技术分享室整理) 8
-      - _美国(Youtube技术分享室整理)
       - US美国(Youtube技术分享室) 18
-      - (Youtube技术分享室)🇦🇺澳大利亚
+      - (Youtube技术分享室)🇩🇪德国 4
       - US美国(Youtube技术分享室) 19
+      - CA加拿大(Youtube技术分享室)
+      - 加拿大🇨🇦(Youtube技术分享室整理) 2
       - US美国(Youtube技术分享室) 20
-      - US美国(Youtube技术分享室) 21
-      - CA加拿大(Youtube技术分享室) 3
-      - US美国(Youtube技术分享室) 22
       - (Youtube技术分享室)🇺🇸美国 4
-      - US(Youtube技术分享室整理) 9
-      - US美国(Youtube技术分享室) 23
-      - US美国(Youtube技术分享室) 24
-      - SG新加坡(Youtube技术分享室) 3
-      - US美国(Youtube技术分享室) 25
-      - US美国(Youtube技术分享室) 26
-      - US美国(Youtube技术分享室) 27
-      - US美国(Youtube技术分享室) 28
-      - CN中国(Youtube技术分享室) 2
-      - (Youtube技术分享室)🇺🇸美国 5
-      - CA加拿大(Youtube技术分享室) 4
-      - SG新加坡(Youtube技术分享室) 4
-      - US美国(Youtube技术分享室) 29
-      - _加拿大(Youtube技术分享室整理)
-      - US美国(Youtube技术分享室) 30
-      - US美国(Youtube技术分享室) 31
-      - CA加拿大(Youtube技术分享室) 5
-      - 美国(Youtube技术分享室整理)
-      - US美国(Youtube技术分享室) 32
-      - US美国(Youtube技术分享室) 33
-      - US美国(Youtube技术分享室) 34
-      - (Youtube技术分享室)🇺🇸美国 6
-      - (Youtube技术分享室)🇨🇦加拿大 4
-      - US美国(Youtube技术分享室) 35
-      - US美国(Youtube技术分享室) 36
-      - CH瑞士(Youtube技术分享室)
-      - (Youtube技术分享室)🇩🇪德国 2
-      - US美国(Youtube技术分享室) 37
-      - US美国(Youtube技术分享室) 38
+      - GB英国(Youtube技术分享室) 13
+      - US美国(Youtube技术分享室) 21
+      - US美国(Youtube技术分享室) 22
+      - (Youtube技术分享室)🇬🇧英国 7
+      - GB英国(Youtube技术分享室) 14
+      - (Youtube技术分享室)🇫🇷法国 2
   - name: 🎯 全球直连
     type: select
     proxies:
@@ -876,106 +876,106 @@ proxy-groups:
       - 🔰 节点选择
       - 🎯 全球直连
       - ♻️ 自动选择
+      - 日本+🇯🇵(Youtube技术分享室整理)
+      - SG新加坡(Youtube技术分享室)
+      - SG新加坡(Youtube技术分享室) 2
+      - SG新加坡(Youtube技术分享室) 3
+      - RO(Youtube技术分享室整理)
+      - SG新加坡(Youtube技术分享室) 4
+      - SG新加坡(Youtube技术分享室) 5
+      - SG新加坡(Youtube技术分享室) 6
+      - SG新加坡(Youtube技术分享室) 7
+      - GB英国(Youtube技术分享室)
+      - US美国(Youtube技术分享室整理)
+      - GB英国(Youtube技术分享室) 2
+      - GB英国(Youtube技术分享室) 3
+      - US美国(Youtube技术分享室)
       - (Youtube技术分享室)🇨🇳中国
+      - GB英国(Youtube技术分享室) 4
       - (Youtube技术分享室)🇬🇧英国
       - (Youtube技术分享室)🇬🇧英国 2
-      - FR法国(Youtube技术分享室)
-      - GB英国(Youtube技术分享室)
+      - GB英国(Youtube技术分享室) 5
       - (Youtube技术分享室)🇬🇧英国 3
-      - GB英国(Youtube技术分享室) 2
-      - FR(Youtube技术分享室整理)
-      - BA波黑(Youtube技术分享室)
-      - FR法国(Youtube技术分享室) 2
-      - (Youtube技术分享室)
-      - 中国(Youtube技术分享室)
+      - FR法国(Youtube技术分享室)
       - US(Youtube技术分享室整理)
-      - PL波兰(Youtube技术分享室)
-      - SG新加坡(Youtube技术分享室)
-      - (Youtube技术分享室)🇨🇳中国 2
-      - (Youtube技术分享室)🇩🇪德国
-      - DE德国(Youtube技术分享室)
-      - (Youtube技术分享室) 2
-      - US美国(Youtube技术分享室)
-      - (Youtube技术分享室)🇬🇧英国 4
-      - US美国(Youtube技术分享室) 2
-      - GB英国(Youtube技术分享室) 3
-      - PL(Youtube技术分享室整理)
-      - SG(Youtube技术分享室整理)
-      - US美国(Youtube技术分享室) 3
-      - US美国(Youtube技术分享室) 4
-      - CA加拿大(Youtube技术分享室)
-      - (Youtube技术分享室)🇨🇦加拿大
-      - US美国(Youtube技术分享室) 5
-      - US美国(Youtube技术分享室) 6
-      - US美国(Youtube技术分享室) 7
-      - SG新加坡(Youtube技术分享室) 2
-      - AE阿联酋(Youtube技术分享室)
+      - _英国(Youtube技术分享室整理)
+      - GB英国(Youtube技术分享室) 6
       - US(Youtube技术分享室整理) 2
+      - (Youtube技术分享室)🇳🇱荷兰
+      - (Youtube技术分享室)🇺🇸美国
+      - GB英国(Youtube技术分享室) 7
+      - GB英国(Youtube技术分享室) 8
+      - BA波黑(Youtube技术分享室)
+      - US美国(Youtube技术分享室) 2
+      - (Youtube技术分享室)🇬🇧英国 4
+      - GB英国(Youtube技术分享室) 9
+      - _英国(Youtube技术分享室整理) 2
+      - GB英国(Youtube技术分享室) 10
+      - 澳大利亚🇦🇺(Youtube技术分享室整理)
+      - 澳大利亚🇦🇺(Youtube技术分享室整理) 2
       - AU澳大利亚(Youtube技术分享室)
-      - US美国(Youtube技术分享室) 8
-      - US美国(Youtube技术分享室) 9
-      - (Youtube技术分享室)🇨🇦加拿大 2
-      - 加拿大🇨🇦(Youtube技术分享室整理)
-      - US美国(Youtube技术分享室) 10
-      - US美国(Youtube技术分享室) 11
+      - (Youtube技术分享室)🇩🇪德国
+      - GB英国(Youtube技术分享室) 11
+      - (Youtube技术分享室)🇦🇺澳大利亚
       - US(Youtube技术分享室整理) 3
       - US(Youtube技术分享室整理) 4
+      - _韩国(Youtube技术分享室整理)
+      - US美国(Youtube技术分享室) 3
+      - BA波黑(Youtube技术分享室) 2
+      - US美国(Youtube技术分享室) 4
+      - (Youtube技术分享室)🇺🇸美国 2
+      - (Youtube技术分享室)🇰🇷韩国
+      - US(Youtube技术分享室整理) 5
+      - (Youtube技术分享室)🇬🇧英国 5
+      - GB英国(Youtube技术分享室) 12
+      - (Youtube技术分享室)🇦🇺澳大利亚 2
+      - (Youtube技术分享室)🇺🇸美国 3
+      - 美国(Youtube技术分享室整理)
+      - FR法国(Youtube技术分享室) 2
+      - US(Youtube技术分享室整理) 6
+      - _韩国(Youtube技术分享室整理) 2
+      - _韩国(Youtube技术分享室整理) 3
+      - 美国(Youtube技术分享室整理) 2
+      - AU澳大利亚(Youtube技术分享室) 2
+      - TW(Youtube技术分享室整理)
+      - US美国(Youtube技术分享室) 5
+      - (Youtube技术分享室)🇩🇪德国 2
+      - AU澳大利亚(Youtube技术分享室) 3
+      - US(Youtube技术分享室整理) 7
+      - (Youtube技术分享室)🇰🇷韩国 2
+      - (Youtube技术分享室)🇩🇪德国 3
+      - (Youtube技术分享室)🇬🇧英国 6
+      - US美国(Youtube技术分享室) 6
+      - FR法国(Youtube技术分享室) 3
+      - (Youtube技术分享室)🇵🇱波兰
+      - US美国(Youtube技术分享室) 7
+      - US美国(Youtube技术分享室) 8
+      - US美国(Youtube技术分享室) 9
+      - 加拿大🇨🇦(Youtube技术分享室整理)
+      - (Youtube技术分享室)🇫🇷法国
+      - US(Youtube技术分享室整理) 8
+      - (Youtube技术分享室)🇰🇷韩国 3
+      - US美国(Youtube技术分享室) 10
+      - US美国(Youtube技术分享室) 11
       - US美国(Youtube技术分享室) 12
-      - NZ新西兰(Youtube技术分享室)
       - US美国(Youtube技术分享室) 13
       - US美国(Youtube技术分享室) 14
-      - US(Youtube技术分享室整理) 5
       - US美国(Youtube技术分享室) 15
-      - CN中国(Youtube技术分享室)
       - US美国(Youtube技术分享室) 16
-      - AU澳大利亚(Youtube技术分享室) 2
-      - US(Youtube技术分享室整理) 6
       - US美国(Youtube技术分享室) 17
-      - US(Youtube技术分享室整理) 7
-      - (Youtube技术分享室)🇺🇸美国
-      - (Youtube技术分享室)🇺🇸美国 2
-      - (Youtube技术分享室)🇺🇸美国 3
-      - CA加拿大(Youtube技术分享室) 2
-      - (Youtube技术分享室)🇨🇦加拿大 3
-      - US(Youtube技术分享室整理) 8
-      - _美国(Youtube技术分享室整理)
       - US美国(Youtube技术分享室) 18
-      - (Youtube技术分享室)🇦🇺澳大利亚
+      - (Youtube技术分享室)🇩🇪德国 4
       - US美国(Youtube技术分享室) 19
+      - CA加拿大(Youtube技术分享室)
+      - 加拿大🇨🇦(Youtube技术分享室整理) 2
       - US美国(Youtube技术分享室) 20
-      - US美国(Youtube技术分享室) 21
-      - CA加拿大(Youtube技术分享室) 3
-      - US美国(Youtube技术分享室) 22
       - (Youtube技术分享室)🇺🇸美国 4
-      - US(Youtube技术分享室整理) 9
-      - US美国(Youtube技术分享室) 23
-      - US美国(Youtube技术分享室) 24
-      - SG新加坡(Youtube技术分享室) 3
-      - US美国(Youtube技术分享室) 25
-      - US美国(Youtube技术分享室) 26
-      - US美国(Youtube技术分享室) 27
-      - US美国(Youtube技术分享室) 28
-      - CN中国(Youtube技术分享室) 2
-      - (Youtube技术分享室)🇺🇸美国 5
-      - CA加拿大(Youtube技术分享室) 4
-      - SG新加坡(Youtube技术分享室) 4
-      - US美国(Youtube技术分享室) 29
-      - _加拿大(Youtube技术分享室整理)
-      - US美国(Youtube技术分享室) 30
-      - US美国(Youtube技术分享室) 31
-      - CA加拿大(Youtube技术分享室) 5
-      - 美国(Youtube技术分享室整理)
-      - US美国(Youtube技术分享室) 32
-      - US美国(Youtube技术分享室) 33
-      - US美国(Youtube技术分享室) 34
-      - (Youtube技术分享室)🇺🇸美国 6
-      - (Youtube技术分享室)🇨🇦加拿大 4
-      - US美国(Youtube技术分享室) 35
-      - US美国(Youtube技术分享室) 36
-      - CH瑞士(Youtube技术分享室)
-      - (Youtube技术分享室)🇩🇪德国 2
-      - US美国(Youtube技术分享室) 37
-      - US美国(Youtube技术分享室) 38
+      - GB英国(Youtube技术分享室) 13
+      - US美国(Youtube技术分享室) 21
+      - US美国(Youtube技术分享室) 22
+      - (Youtube技术分享室)🇬🇧英国 7
+      - GB英国(Youtube技术分享室) 14
+      - (Youtube技术分享室)🇫🇷法国 2
 rules:
  - DOMAIN-SUFFIX,local,🎯 全球直连
  - IP-CIDR,192.168.0.0/16,🎯 全球直连,no-resolve
